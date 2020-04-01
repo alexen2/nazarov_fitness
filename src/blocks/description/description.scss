@@ -1,0 +1,148 @@
+.description {
+	/* 2 Block model */
+	padding-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 130px;
+	}
+}
+.description .h2 {
+	/* 2 Block model */
+	margin-bottom: 37px;
+
+	/* 3 Typography */
+	text-align: center;
+}
+.description__body {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 196px;
+	margin-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		flex-direction: row;
+		align-items: flex-start;
+		margin-bottom: 340px;
+	}
+}
+.description__left {
+	/* 1 Positioning */
+	position: relative;
+	z-index: 5;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 0 10px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding: 0;
+	}
+}
+.description .text {
+	/* 2 Block model */
+	max-width: 416px;
+	margin-bottom: 30px;
+}
+.description__text-blue {
+	/* 2 Block model */
+	display: inline-block;
+
+	/* 3 Typography */
+	color: $color-blue;
+}
+.description__center {
+	/* 1 Positioning */
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 1;
+
+	/* 2 Block model */
+	width: 813px;
+
+	/* 4 Visual */
+	transform: translateX(-50%);
+}
+.description__right {
+	/* 1 Positioning */
+	position: relative;
+	z-index: 5;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 0 10px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding: 0;
+	}
+}
+.description__bottom {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1120px;
+	margin: 0 auto;
+}
+.description__item {
+	/* 1 Positioning */
+	position: relative;
+	z-index: 5;
+
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 20px;
+
+	/* 3 Typography */
+	text-align: center;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		width: 33%;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		width: auto;
+	}
+}
+.description__item:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
+.description__item img {
+	/* 2 Block model */
+	margin-bottom: 24px;
+}
+.description__text {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	color: $color-white;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */
