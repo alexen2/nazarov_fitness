@@ -1,0 +1,33 @@
+@import 'fonts';
+@import 'variables';
+@import 'mixins';
+@import 'base';
+
+// Atom-mixins
+
+@import '../blocks/icon/icon';
+@import '../blocks/btn/btn';
+@import '../blocks/logo/logo';
+@import '../blocks/picture/picture';
+@import '../blocks/input/input';
+@import '../blocks/product-component/product-component';
+
+// Atom-blocks
+
+@import '../blocks/h1/h1';
+@import '../blocks/h2/h2';
+@import '../blocks/h3/h3';
+@import '../blocks/text/text';
+@import '../blocks/lead/lead';
+@import '../blocks/subtitle/subtitle';
+@import '../blocks/link/link';
+@import '../blocks/img/img';
+@import '../blocks/menu/menu';
+@import '../blocks/form/form';
+@import '../blocks/map/map';
+
+// Main Blocks
+
+@import '../blocks/header/header';
+@import '../blocks/top/top';
+@import '../blocks/footer/footer';

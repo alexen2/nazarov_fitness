@@ -1,0 +1,89 @@
+.top {
+	/* 2 Block model */
+	padding-bottom: 50px;
+
+	/* 4 Visual */
+	background-color: $color-black;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 100px;
+	}
+}
+.top__wrapper-bg {
+	/* 2 Block model */
+	padding-top: 66px;
+	padding-bottom: 195px;
+
+	/* 4 Visual */
+	background-image: url(../images/top__bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 320px;
+	}
+}
+.top__header {
+	/* 2 Block model */
+	margin-bottom: 25px;
+}
+.top__info {
+	/* 2 Block model */
+	max-width: 690px;
+	margin-bottom: 75px;
+}
+.top__info .h1 {
+	/* 2 Block model */
+	margin-bottom: 30px;
+}
+.top__info .subtitle {
+	/* 2 Block model */
+	margin-bottom: 30px;
+
+	/* 3 Typography */
+	color: $color-blue;
+}
+.top__info .lead {
+	/* 2 Block model */
+	max-width: 450px;
+	margin-bottom: 50px;
+}
+.top__product_components {
+	/* 2 Block model */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-top: -215px;
+}
+.top__product_components-item {
+	/* 2 Block model */
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		width: 50%;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		width: 25%;
+	}
+}
+.top__product_components-item:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

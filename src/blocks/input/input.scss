@@ -1,0 +1,72 @@
+.input {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+}
+.input label {
+	/* 2 Block model */
+	padding: 0;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	color: black;
+}
+.input input {
+	/* 2 Block model */
+	padding: 5px 10px;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	color: black;
+
+	/* 4 Visual */
+	border: 2px solid black;
+}
+.input input::-webkit-input-placeholder {
+	/* 3 Typography */
+	color: red;
+}
+.input input::-moz-placeholder {
+	/* 3 Typography */
+	color: red;
+	text-overflow: ellipsis;
+
+	/* 4 Visual */
+	opacity: 1;
+}
+.input input:-moz-placeholder {
+	/* 3 Typography */
+	color: red;
+	text-overflow: ellipsis;
+
+	/* 4 Visual */
+	opacity: 1;
+}
+.input input:-ms-input-placeholder {
+	/* 3 Typography */
+	color: red;
+	text-overflow: ellipsis;
+}
+.input input[placeholder] {
+	/* 3 Typography */
+	text-overflow: ellipsis;
+}
+.input input:hover {
+	/* 4 Visual */
+	cursor: pointer;
+	opacity: 0.7;
+}
+// .input input:focus {
+
+// }
+// .input input:active {
+
+// }

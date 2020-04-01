@@ -1,0 +1,16 @@
+.lead {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 32px;
+	color: $color-white;
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 22px;
+		line-height: 34px;
+	}
+}

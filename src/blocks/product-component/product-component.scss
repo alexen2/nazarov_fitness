@@ -1,0 +1,54 @@
+.product-component {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.product-component__img {
+	/* 2 Block model */
+	display: flex;
+	margin-bottom: 36px;
+}
+.product-component__img img {
+	/* 2 Block model */
+	display: block;
+	width: 94px;
+}
+.product-component__title {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 12px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	color: $color-white;
+	text-align: center;
+	text-transform: uppercase;
+}
+.product-component__text {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 26px;
+	color: $color-white;
+	text-align: center;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

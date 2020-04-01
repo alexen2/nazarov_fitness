@@ -1,0 +1,16 @@
+.subtitle {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 36px;
+	color: $color-white;
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 26px;
+		line-height: 38px;
+	}
+}

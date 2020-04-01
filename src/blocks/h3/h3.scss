@@ -1,0 +1,17 @@
+.h3 {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 26px;
+	color: $color-white;
+	text-transform: uppercase;
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 20px;
+		line-height: 28px;
+	}
+}

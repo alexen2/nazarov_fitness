@@ -1,0 +1,24 @@
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Bold.woff2') format('woff2'), url('Roboto-Bold.woff') format('woff');
+	font-style: normal;
+	font-weight: bold;
+}
+@font-face {
+	font-family: 'Roboto';
+	src: url('../fonts/Roboto-Regular.woff2') format('woff2'), url('Roboto-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.woff2') format('woff2'), url('OpenSans-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: 'Candara';
+	src: url('../fonts/Candara-BoldItalic.woff2') format('woff2'), url('../fonts/Candara-BoldItalic.woff') format('woff');
+	font-style: italic;
+	font-weight: bold;
+}

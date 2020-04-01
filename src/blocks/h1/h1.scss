@@ -1,0 +1,22 @@
+.h1 {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 42px;
+	color: $color-white;
+	text-transform: uppercase;
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 70px;
+		line-height: 62px;
+	}
+	@media (min-width: 992px) {
+		/* 3 Typography */
+		font-size: 100px;
+		line-height: 92px;
+	}
+}

@@ -1,0 +1,6 @@
+mixin product-component(data)
+  div.product-component(class!=attributes.class)
+    div.product-component__img
+      img(src="images/"+data.img, alt=data.alt)
+    h2.product-component__title!=data.title
+    p.product-component__text!=data.text
