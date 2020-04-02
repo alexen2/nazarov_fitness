@@ -1,8 +1,17 @@
 .product-component {
 	/* 2 Block model */
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 0 8px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding: 0;
+	}
 }
 .product-component__img {
 	/* 2 Block model */
