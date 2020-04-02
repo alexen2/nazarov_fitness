@@ -6,74 +6,7 @@
 		margin-bottom: 100px;
 	}
 }
-.contacts__body .h2 {
-	/* 2 Block model */
-	margin-bottom: 45px;
-	@media (min-width: 768px) {
-		/* 2 Block model */
-		margin-bottom: 100px;
-	}
-}
-.contacts__top {
-	/* 2 Block model */
-	margin-bottom: 50px;
-	@media (min-width: 768px) {
-		/* 2 Block model */
-		margin-bottom: 241px;
-	}
-}
-.contacts__top-row {
-	/* 2 Block model */
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	@media (min-width: 1200px) {
-		/* 2 Block model */
-		justify-content: flex-start;
-	}
-}
-.contacts__item {
-	/* 2 Block model */
-	box-sizing: border-box;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 300px;
-	margin-bottom: 30px;
-
-	/* 3 Typography */
-	text-align: center;
-	@media (min-width: 1200px) {
-		/* 2 Block model */
-		width: 270px;
-		margin-right: 14px;
-		margin-bottom: 0;
-	}
-	@media (min-width: 1400px) {
-		/* 2 Block model */
-		width: 300px;
-	}
-}
-.contacts__item-img {
-	/* 2 Block model */
-	display: block;
-	width: 94px;
-	margin-bottom: 40px;
-}
-.contacts__item-text {
-	/* 2 Block model */
-	margin: 0;
-
-	/* 3 Typography */
-	font-family: $font-second;
-	font-size: 20px;
-	font-weight: 700;
-	line-height: 28px;
-	color: $color-white;
-	text-transform: uppercase;
-}
-.contacts__bottom {
+.contacts__body {
 	/* 2 Block model */
 	display: flex;
 	flex-direction: column;
@@ -82,7 +15,7 @@
 		flex-direction: row;
 	}
 }
-.contacts__bottom-left {
+.contacts-left {
 	/* 2 Block model */
 	width: 100%;
 	max-width: 768px;
@@ -93,7 +26,7 @@
 		margin-bottom: 0;
 	}
 }
-.contacts__bottom-right {
+.contacts-right {
 	@media (min-width: 768px) {
 		/* 2 Block model */
 		padding-top: 15px;
@@ -105,14 +38,14 @@
 		padding-left: 57px;
 	}
 }
-.contacts__bottom-right .h2 {
+.contacts-right .h2 {
 	/* 1 Positioning */
 	margin-bottom: 6px;
 
 	/* 3 Typography */
 	text-align: left;
 }
-.contacts__bottom-text {
+.contacts-text {
 	/* 2 Block model */
 	margin-bottom: 25px;
 	@media (min-width: 768px) {
@@ -150,15 +83,3 @@
 	/* 4 Visual */
 	opacity: 0.7;
 }
-
-/* 1 Positioning */
-
-/* 2 Block model */
-
-/* 3 Typography */
-
-/* 4 Visual */
-
-/* 5 Animation */
-
-/* 6 Misc */

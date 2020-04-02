@@ -35,6 +35,10 @@
 	/* 1 Positioning */
 	position: relative;
 	z-index: 5;
+
+	/* 2 Block model */
+	width: 100%;
+	max-width: 416px;
 	@media (min-width: 768px) {
 		/* 2 Block model */
 		padding: 0 10px;
@@ -46,7 +50,6 @@
 }
 .description .text {
 	/* 2 Block model */
-	max-width: 416px;
 	margin-bottom: 30px;
 }
 .description__text-blue {
@@ -73,6 +76,10 @@
 	/* 1 Positioning */
 	position: relative;
 	z-index: 5;
+
+	/* 2 Block model */
+	width: 100%;
+	max-width: 416px;
 	@media (min-width: 768px) {
 		/* 2 Block model */
 		padding: 0 10px;

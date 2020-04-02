@@ -67,11 +67,21 @@
 	/* 2 Block model */
 	display: block;
 	width: 100%;
-	max-width: 188px;
+	max-width: 140px;
 	margin-bottom: 36px;
+	@media (min-width: 460px) {
+		/* 2 Block model */
+		max-width: 170px;
+	}
+	@media (min-width: 500px) {
+		/* 2 Block model */
+		max-width: 188px;
+	}
 }
 .menu-product__item-title {
 	/* 2 Block model */
+	width: 100%;
+	max-width: 247px;
 	margin: 0;
 
 	/* 3 Typography */

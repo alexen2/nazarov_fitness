@@ -17,11 +17,14 @@
 	/* 4 Visual */
 	background-image: url(../images/top__bg.jpg);
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 74% 0;
 	background-size: cover;
 	@media (min-width: 768px) {
 		/* 2 Block model */
 		padding-bottom: 320px;
+
+		/* 4 Visual */
+		background-position: center;
 	}
 }
 .top__header {
