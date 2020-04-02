@@ -1,3 +1,11 @@
+.info {
+	/* 2 Block model */
+	margin-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 142px;
+	}
+}
 .info .h2 {
 	/* 2 Block model */
 	margin-bottom: 45px;
@@ -172,6 +180,7 @@
 	color: $color-white;
 	text-align: center;
 }
+
 /* 1 Positioning */
 
 /* 2 Block model */
