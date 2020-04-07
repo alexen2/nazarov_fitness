@@ -1,16 +1,18 @@
 div.contacts
   div.container
-    div.contacts__body
-      div.contacts-left
-        include ../map/map.pug
-      div.contacts-right
-        p.h2 КАК С&nbsp;НАМИ СВЯЗАТЬСЯ
-        p.text.contacts__bottom-text По&nbsp;всем вопросам приобретения продукции Назаров Фитнесс обращаться:
+    div.row
+      div.col-12.col-md-6.col-lg-7
+        div.contacts-left
+          include ../map/map.pug
+      div.col-12.col-md-6.col-lg-5
+        div.contacts-right
+          p.h2 КАК С&nbsp;НАМИ СВЯЗАТЬСЯ
+          p.text.contacts__bottom-text По&nbsp;всем вопросам приобретения продукции Назаров Фитнесс обращаться:
 
-        div.contacts__adress
-          p.contacts__adress-title Адрес представительства в&nbsp;Москве:
-          p.text Научный проезд, д.8 с1, офис 540. БЦ&nbsp;&laquo;На&nbsp;Научном&raquo;
-          p.contacts__adress-title По телефону: 
-            a.text(href="tel:+74959227206") +7(495) 922-72-06
-          p.contacts__adress-title Email: 
-            a.text(href="mailto:nazarov.fitness@gmail.com ") nazarov.fitness@gmail.com
+          div.contacts__adress
+            p.contacts__adress-title Адрес представительства в&nbsp;Москве:
+            p.text Научный проезд, д.8 с1, офис 540. БЦ&nbsp;&laquo;На&nbsp;Научном&raquo;
+            p.contacts__adress-title По телефону: 
+              a.text(href="tel:+74959227206") +7(495) 922-72-06
+            p.contacts__adress-title Email: 
+              a.text(href="mailto:nazarov.fitness@gmail.com ") nazarov.fitness@gmail.com

@@ -1,52 +1,43 @@
 .contacts {
 	/* 2 Block model */
-	margin-bottom: 50px;
+	margin-bottom: 60px;
 	@media (min-width: 768px) {
 		/* 2 Block model */
-		margin-bottom: 100px;
-	}
-}
-.contacts__body {
-	/* 2 Block model */
-	display: flex;
-	flex-direction: column;
-	@media (min-width: 768px) {
-		/* 2 Block model */
-		flex-direction: row;
+		margin-bottom: 120px;
 	}
 }
 .contacts-left {
 	/* 2 Block model */
-	width: 100%;
-	max-width: 768px;
-	margin: 0 auto;
 	margin-bottom: 30px;
 	@media (min-width: 768px) {
 		/* 2 Block model */
 		margin-bottom: 0;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		padding-right: 42px;
 	}
 }
 .contacts-right {
 	@media (min-width: 768px) {
 		/* 2 Block model */
 		padding-top: 15px;
-		padding-left: 20px;
 	}
 	@media (min-width: 1400px) {
 		/* 2 Block model */
-		padding-top: 58px;
-		padding-left: 57px;
+		padding-top: 53px;
 	}
 }
 .contacts-right .h2 {
 	/* 1 Positioning */
-	margin-bottom: 6px;
+	margin-bottom: 10px;
 
 	/* 3 Typography */
 	text-align: left;
 }
-.contacts-text {
+.contacts__bottom-text {
 	/* 2 Block model */
+	max-width: 360px;
 	margin-bottom: 25px;
 	@media (min-width: 768px) {
 		/* 2 Block model */
@@ -55,7 +46,7 @@
 }
 .contacts__adress p {
 	/* 2 Block model */
-	margin-bottom: 8px;
+	margin-bottom: 6px;
 }
 .contacts__adress p:last-child {
 	/* 2 Block model */

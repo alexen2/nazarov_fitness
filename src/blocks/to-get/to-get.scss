@@ -14,37 +14,19 @@
 		margin-bottom: 241px;
 	}
 }
-.to-get__top-row {
-	/* 2 Block model */
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: center;
-	@media (min-width: 1200px) {
-		/* 2 Block model */
-		justify-content: flex-start;
-	}
-}
 .to-get__item {
 	/* 2 Block model */
 	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	width: 300px;
 	margin-bottom: 30px;
 
 	/* 3 Typography */
 	text-align: center;
 	@media (min-width: 1200px) {
 		/* 2 Block model */
-		width: 270px;
-		margin-right: 14px;
 		margin-bottom: 0;
-	}
-	@media (min-width: 1400px) {
-		/* 2 Block model */
-		width: 300px;
 	}
 }
 .to-get__item-img {
