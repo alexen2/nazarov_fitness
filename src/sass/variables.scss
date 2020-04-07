@@ -11,7 +11,7 @@ $font-second: "Roboto", "Helvetica", sans-serif;
  *
  */
 $color-black: #000000;
-$color-black200: #051F27;
+$color-black200: #1A2345;
 $color-white: #FFFFFF;
 $color-blue: #00C4FF;
 
@@ -24,6 +24,12 @@ $breakpoints: (
 	md: 768px,
 	lg: 992px,
 	xl: 1200px
+);
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 960px,
+	xl: 1368px
 );
 
 /*

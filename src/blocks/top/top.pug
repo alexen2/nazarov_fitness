@@ -1,24 +1,31 @@
 section.top
 	div.top__wrapper-bg
 		div.container
-			div.top__info
-				h1.h1 ПИТАНИЕ ЧЕМПИОНОВ
-				p.subtitle УСТАЛИ ДОБЫВАТЬ БЕЛОК ИЗ СЛАДКИХ КОКТЕЙЛЕЙ?
-				p.lead Попробуйте новинку&nbsp;&mdash; уникальные блюда премиального качества Назаров фитнес! 25&nbsp;грамм белка в&nbsp;каждой порции!
+			div.row
+				dic.col-12.col-lg-7
+					div.top__info
+						h1.h1 ПИТАНИЕ ЧЕМПИОНОВ
+						p.subtitle УСТАЛИ ДОБЫВАТЬ БЕЛОК ИЗ СЛАДКИХ КОКТЕЙЛЕЙ?
+						p.lead Попробуйте новинку&nbsp;&mdash; уникальные блюда премиального качества Назаров фитнес! 25&nbsp;грамм белка в&nbsp;каждой порции!
 
-				div.top__action
-				+btn({text: 'Стать дистрибъютером', type: 'link', url: '#'})
+						div.top__action
+						+btn({text: 'Стать дистрибъютером', type: 'link', url: '#'})
+						
+	div.top__product_components
+		div.container
+			div.row
+				div.col-12.col-md-6.col-xl-3
+					div.top__product_components-item
+						+product-component({img: 'product-component__img-01.png', alt: 'хранение', title: '180&nbsp;СУТОК НЕ&nbsp;МЕНЬШЕ &minus;18С', text: 'Срок хранения продукции 180 суток при температуре не&nbsp;выше&nbsp;&minus;18С'})
 
-	div.container
-		div.top__product_components
-			div.top__product_components-item
-				+product-component({img: 'product-component__img-01.png', alt: 'хранение', title: '180 СУТОК НЕ ВЫШЕ  -18С', text: 'Срок хранения продукции 180 суток при температуре не&nbsp;выше &minus;18С'})
+				div.col-12.col-md-6.col-xl-3
+					div.top__product_components-item
+						+product-component({img: 'product-component__img-02.png', alt: 'приготовление', title: 'РАЗОГРЕВ В&nbsp;СВЧ-ПЕЧИ', text: 'Не&nbsp;нужно готовить. Просто разогрейте в&nbsp;микроволновке, в&nbsp;духовом шкафу или на&nbsp;плите'})
 
-			div.top__product_components-item
-				+product-component({img: 'product-component__img-02.png', alt: 'приготовление', title: 'РАЗОГРЕВ  В СВЧ-ПЕЧИ', text: 'Не&nbsp;нужно готовить. Просто разогрейте в&nbsp;микроволновке, в&nbsp;духовом шкафу или на&nbsp;плите'})
+				div.col-12.col-md-6.col-xl-3
+					div.top__product_components-item
+						+product-component({img: 'product-component__img-03.png', alt: 'состав', title: '100% НАТУРАЛЬНЫЙ СОСТАВ', text: 'Без ГМО, консервантов, искусственных красителей, ароматизаторов, усилителей вкуса'})
 
-			div.top__product_components-item
-				+product-component({img: 'product-component__img-03.png', alt: 'состав', title: '100% НАТУРАЛЬНЫЙ  СОСТАВ', text: 'Без ГМО, консервантов, искусственных красителей, ароматизаторов, усилителей вкуса'})
-
-			div.top__product_components-item
-				+product-component({img: 'product-component__img-04.png', alt: 'экономия', title: 'ЭКОНОМИЯ  СРЕДСТВ', text: 'Можно заложить в&nbsp;морозильник &laquo;про запас&raquo; и&nbsp;использовать по&nbsp;необходимости'})
+				div.col-12.col-md-6.col-xl-3
+					div.top__product_components-item
+						+product-component({img: 'product-component__img-04.png', alt: 'экономия', title: 'ЭКОНОМИЯ  СРЕДСТВ', text: 'Можно заложить в&nbsp;морозильник &laquo;про запас&raquo; и&nbsp;использовать по&nbsp;необходимости'})

@@ -12,7 +12,7 @@ body {
 	color: #000000;
 
 	/* 4 Visual */
-	background-color: $color-black;
+	background-color: $color-black200;
 }
 p,
 ul {
@@ -24,14 +24,6 @@ ul {
 	/* 2 Block model */
 	width: 100%;
 	overflow-x: hidden;
-}
-.container {
-	/* 2 Block model */
-	box-sizing: border-box;
-	width: 100%;
-	max-width: 1358px;
-	padding: 0 15px;
-	margin: 0 auto;
 }
 .scrolled {
 	/* 2 Block model */
