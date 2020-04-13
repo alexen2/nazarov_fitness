@@ -96,10 +96,10 @@
 .info__bottom {
 	/* 2 Block model */
 	padding-top: 45px;
-	padding-bottom: 20px;
-
-	/* 4 Visual */
-	background-color: $color-blue;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 20px;
+	}
 }
 .info__item {
 	/* 2 Block model */
@@ -107,7 +107,19 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 0 5px 25px 5px;
+	width: 100%;
+	max-width: 255px;
+	padding: 20px 8px 25px 8px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+
+	/* 4 Visual */
+	border: 11px solid #FFFFFF;
+	border-radius: 26px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
 }
 .info__item img {
 	/* 2 Block model */
@@ -133,9 +145,9 @@
 
 	/* 3 Typography */
 	font-family: $font-main;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 400;
-	line-height: 26px;
+	line-height: 20px;
 	color: $color-white;
 	text-align: center;
 }
