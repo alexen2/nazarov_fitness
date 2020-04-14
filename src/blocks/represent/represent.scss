@@ -1,0 +1,73 @@
+.represent {
+	/* 2 Block model */
+	padding-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 120px;
+	}
+}
+.represent h2 {
+	/* 2 Block model */
+	margin-bottom: 72px;
+}
+.represent__img {
+	/* 2 Block model */
+
+	/* 3 Typography */
+	text-align: center;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		float: left;
+		margin-right: 62px;
+		margin-left: 48px;
+	}
+}
+.represent__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	max-width: 460px;
+	margin: 0 auto;
+}
+.represent__img-title {
+	/* 2 Block model */
+	display: block;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 34px;
+	color: $color-white;
+}
+.represent__img-desc {
+	/* 2 Block model */
+	display: block;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: $color-white;
+}
+.represent .text {
+	/* 2 Block model */
+	margin-bottom: 12px;
+}
+.represent .text:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

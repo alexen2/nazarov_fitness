@@ -1,0 +1,116 @@
+.business-works {
+	/* 2 Block model */
+	padding-bottom: 50px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 120px;
+	}
+}
+.business-works__top {
+	/* 2 Block model */
+	margin-bottom: 38px;
+
+	/* 3 Typography */
+	text-align: center;
+}
+.business-works h2 {
+	/* 2 Block model */
+	margin-bottom: 68px;
+}
+.business-works__img {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 255px;
+	height: 80px;
+	margin: 0 auto;
+	margin-bottom: 24px;
+
+	/* 4 Visual */
+	background-color: $color-blue;
+	border-radius: 50px;
+}
+.business-works__top .text {
+	/* 2 Block model */
+	max-width: 882px;
+	margin: 0 auto;
+	margin-bottom: 38px;
+}
+.business-works__list {
+	/* 4 Visual */
+	list-style: none;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 12px;
+	}
+}
+.business-works__item {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	padding-left: 35px;
+	margin-bottom: 12px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		min-height: 140px;
+		padding-left: 55px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		min-height: 104px;
+		padding-left: 85px;
+	}
+}
+.business-works__item:last-child {
+	/* 2 Block model */
+	margin-bottom: 12px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+.business-works__item::before {
+	/* 1 Positioning */
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	/* 2 Block model */
+	display: block;
+	width: 20px;
+	height: 20px;
+
+	/* 4 Visual */
+	content: '';
+	background-color: $color-blue;
+	border-radius: 50%;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		width: 30px;
+		height: 30px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		width: 50px;
+		height: 50px;
+	}
+}
+.business-works__bottom .text {
+	/* 2 Block model */
+	margin-bottom: 12px;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

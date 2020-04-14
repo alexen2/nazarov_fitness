@@ -1,0 +1,82 @@
+.partners {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.partners__item {
+	/* 2 Block model */
+	flex: 0 0 50%;
+	width: 50%;
+	margin-bottom: 20px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		flex: 0 0 20%;
+		width: 20%;
+		margin-bottom: 0;
+	}
+}
+.partners__item:last-child {
+	/* 2 Block model */
+	margin: 0 auto;
+}
+.partners__top {
+	/* 2 Block model */
+	padding-bottom: 24px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	color: $color-white;
+	text-align: center;
+}
+.partners__img {
+	/* 2 Block model */
+	padding: 20px 0;
+
+	/* 3 Typography */
+	text-align: center;
+
+	/* 4 Visual */
+	background-color: #FFFFFF;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		padding: 37px 0;
+	}
+}
+.partners__img img {
+	/* 2 Block model */
+	display: inline-block;
+	height: 95px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		height: 80px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		height: 110px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		height: 125px;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		height: 174px;
+	}
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */
