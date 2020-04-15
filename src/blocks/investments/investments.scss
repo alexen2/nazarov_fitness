@@ -1,0 +1,123 @@
+.investments {
+	/* 2 Block model */
+	padding-bottom: 15px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 0;
+	}
+}
+.investments .h2 {
+	/* 2 Block model */
+	margin-bottom: 68px;
+}
+.investments__border {
+	/* 4 Visual */
+	border-bottom: 1px solid #FFFFFF;
+}
+.investments__item {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	color: $color-white;
+	text-align: center;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 68px;
+	}
+}
+.investments__img {
+	/* 2 Block model */
+	margin-bottom: 35px;
+}
+.investments__img img {
+	/* 2 Block model */
+	display: block;
+	width: auto;
+	height: 165px;
+}
+.investments__info {
+	/* 2 Block model */
+	width: 100%;
+}
+.investments__title {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 6px;
+
+	/* 3 Typography */
+	font-size: 29px;
+	font-weight: 400;
+	line-height: 39px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		font-size: 32px;
+		line-height: 40px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		font-size: 36px;
+		line-height: 48px;
+	}
+}
+.investments__subtitle {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 14px;
+
+	/* 3 Typography */
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 38px;
+}
+.investments__text {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 2px;
+
+	/* 3 Typography */
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	color: #009EE3;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		font-size: 26px;
+		line-height: 36px;
+	}
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		font-size: 32px;
+		line-height: 40px;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		font-size: 38px;
+		line-height: 48px;
+	}
+}
+.investments__subtext {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 34px;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

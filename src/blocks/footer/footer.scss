@@ -9,6 +9,18 @@
 	/* 4 Visual */
 	border-top: 1px solid #484848;
 }
+.footer--desc {
+	/* 2 Block model */
+	padding-top: 58px;
+	padding-bottom: 66px;
+
+	/* 4 Visual */
+	border: none;
+}
+.footer--desc .link {
+	/* 3 Typography */
+	color: $color-white;
+}
 .footer .link:first-child {
 	/* 3 Typography */
 	color: $color-white;

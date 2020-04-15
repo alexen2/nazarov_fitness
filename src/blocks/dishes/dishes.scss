@@ -1,0 +1,34 @@
+.dishes {
+	/* 2 Block model */
+	padding-bottom: 15px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 120px;
+	}
+}
+.dishes h2 {
+	/* 2 Block model */
+	max-width: 880px;
+	margin: 0 auto;
+	margin-bottom: 68px;
+}
+.dishes__item {
+	/* 2 Block model */
+	margin-bottom: 35px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

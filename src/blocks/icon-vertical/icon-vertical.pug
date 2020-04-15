@@ -1,0 +1,8 @@
+mixin icon-vertical(data)
+	div.icon-vertical(class!=attributes.class)
+		div.icon-vertical__img
+			img(src="images/"+data.img, alt=data.alt)
+		if data.title
+			h3.icon-vertical__title!=data.title
+		if data.text
+			p.icon-vertical__text!=data.text

@@ -1,0 +1,89 @@
+.franchise {
+	/* 2 Block model */
+	padding-bottom: 15px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding-bottom: 120px;
+	}
+}
+.franchise .h2 {
+	/* 2 Block model */
+	margin-bottom: 12px;
+}
+.franchise .h3 {
+	/* 2 Block model */
+	margin-bottom: 20px;
+
+	/* 3 Typography */
+	text-align: center;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 68px;
+	}
+}
+.franchise__item {
+	/* 2 Block model */
+	margin-bottom: 20px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 34px;
+	}
+}
+.franchise__bottom {
+	/* 2 Block model */
+	padding-top: 4px;
+	padding-bottom: 3px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 38px;
+	color: $color-white;
+	text-align: center;
+
+	/* 4 Visual */
+	background-color: $color-blue;
+	@media (min-width: 992px) {
+		/* 3 Typography */
+		font-size: 38px;
+		line-height: 48px;
+	}
+}
+.franchise__bottom p {
+	/* 2 Block model */
+	max-width: 550px;
+	margin: 0 auto;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		max-width: 882px;
+	}
+}
+.franchise__mb62 {
+	/* 2 Block model */
+	margin-bottom: 20px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 62px;
+	}
+}
+.franchise__mb68 {
+	/* 2 Block model */
+	margin-bottom: 20px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 68px;
+	}
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

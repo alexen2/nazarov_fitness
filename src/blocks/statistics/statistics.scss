@@ -1,0 +1,249 @@
+.statistics {
+	/* 2 Block model */
+	margin-bottom: 15px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 120px;
+	}
+}
+.statistics .h2 {
+	/* 2 Block model */
+	margin-bottom: 68px;
+}
+.statistics__border {
+	/* 4 Visual */
+	border-bottom: 1px solid #FFFFFF;
+}
+.statistics__body {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		flex-direction: row;
+		align-items: flex-start;
+		margin-bottom: 68px;
+	}
+}
+.statistics__img {
+	/* 2 Block model */
+	flex: 0 0 160px;
+	width: 160px;
+	margin-bottom: 20px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-right: 60px;
+	}
+}
+.statistics__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	max-width: 160px;
+}
+.statistics__info {
+	/* 2 Block model */
+	width: 100%;
+}
+.statistics__text {
+	/* 2 Block model */
+	width: 100%;
+	max-width: 440px;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 28px;
+	color: $color-white;
+	@media (min-width: 768px) {
+		/* 3 Typography */
+		font-size: 30px;
+		line-height: 42px;
+	}
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 38px;
+		line-height: 48px;
+	}
+}
+.statistics__text--blue {
+	/* 3 Typography */
+	color: #009EE3;
+}
+.statistics__table {
+	/* 2 Block model */
+	margin-bottom: 30px;
+	overflow-x: auto;
+	@media (min-width: 768px) {
+		margin-bottom: 60px;
+	}
+}
+.statistics__table table {
+	/* 1 Positioning */
+	position: relative;
+}
+.statistics__table-head::before {
+	/* 1 Positioning */
+	position: absolute;
+	top: 57px;
+	right: 0;
+	left: 0;
+
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	height: 7px;
+
+	/* 4 Visual */
+	content: '';
+	background-image: url(../images/statistics__img-dashe.png);
+	background-repeat: repeat-x;
+}
+.statistics__table-head th {
+	/* 2 Block model */
+	width: 228px;
+	padding-right: 30px;
+	padding-bottom: 39px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	color: $color-white;
+	text-align: left;
+	word-wrap: normal;
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+.statistics__table-head th:first-child {
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	vertical-align: middle;
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 18px;
+		line-height: 24px;
+	}
+}
+.statistics__table-head th:last-child {
+	/* 2 Block model */
+	padding-right: 0;
+}
+.statistics__table-body {
+	/* 3 Typography */
+	color: $color-white;
+}
+.statistics__table-body td {
+	/* 2 Block model */
+	width: 228px;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	text-align: left;
+	word-wrap: normal;
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		padding-top: 30px;
+
+		/* 3 Typography */
+		font-size: 26px;
+		line-height: 38px;
+	}
+}
+.statistics__table-body td:first-child {
+	/* 3 Typography */
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+.statistics__table-body td:last-child {
+	/* 2 Block model */
+	padding-right: 0;
+}
+.statistics__table-body tr:nth-child(2) {
+	/* 3 Typography */
+	color: #009EE3;
+}
+.statistics__bottom {
+	/* 2 Block model */
+	margin: 0 -15px;
+	margin-bottom: 20px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	color: $color-white;
+	text-align: center;
+	@media (min-width: 768px) {
+		margin-bottom: 68px;
+	}
+}
+.statistics__bottom-title {
+	/* 2 Block model */
+	padding: 8px 0;
+	margin: 0;
+	margin-bottom: 4px;
+
+	/* 3 Typography */
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 40px;
+	text-transform: uppercase;
+
+	/* 4 Visual */
+	background-color: $color-blue;
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 42px;
+		line-height: 52px;
+	}
+}
+.statistics__bottom-text {
+	/* 2 Block model */
+	max-width: 800px;
+	margin: 0 auto;
+
+	/* 3 Typography */
+	font-size: 28px;
+	font-weight: 400;
+	line-height: 38px;
+	@media (min-width: 1200px) {
+		/* 3 Typography */
+		font-size: 38px;
+		line-height: 48px;
+	}
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */
