@@ -34,7 +34,13 @@
 }
 .btn:hover {
 	/* 4 Visual */
-	opacity: 0.7;
+	color: $color-blue;
+	background-color: $color-white;
+}
+.btn:focus {
+	/* 4 Visual */
+	color: $color-blue;
+	background-color: $color-white;
 }
 .btn .icon {
 	/* 2 Block model */

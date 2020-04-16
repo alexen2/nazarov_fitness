@@ -109,6 +109,16 @@
 	font-weight: 400;
 	line-height: 34px;
 }
+.investments__action {
+	/* 2 Block model */
+	margin-bottom: 30px;
+
+	/* 3 Typography */
+	text-align: center;
+	@media (min-width: 768px) {
+		margin-bottom: 68px;
+	}
+}
 
 /* 1 Positioning */
 
