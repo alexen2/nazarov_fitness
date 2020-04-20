@@ -1,0 +1,17 @@
+header.header.header--desc
+  div.container
+    div.header__body
+      div.header__logo
+        +logo({img: 'logo.png'})
+
+      div.header__right
+        div.header__nav
+          div.header__menu
+            include ../menu/menu--desc.pug
+
+          div.header__tel
+            a(href="tel:+74959227206") +7 (495) 922-72-06
+      
+      button.header__btn(type="button")
+        span.visually-hidden Открыть меню
+        span.header__btn-visual
