@@ -39,7 +39,7 @@ function menuScrollDesktop(st) {
 };
 
 function menuDesktopShow(st) {
-  if(st > 1199) {
+  if(st > 992) {
     $('.header__right').attr('style', '');
     
     if($('.overflow-heidden').length) {
@@ -49,13 +49,6 @@ function menuDesktopShow(st) {
 };
 
 function changeScrolled() {
-  if($(window).width() < 768){
     scrolled = 0;
-  }      
-  else if($(window).width() > 767 && $(window).width() < 1200) {
-    scrolled = 95;
-  } else {
-    scrolled = 129;
-  }
 };
 
