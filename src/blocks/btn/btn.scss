@@ -33,13 +33,17 @@
 	-webkit-tap-highlight-color: transparent;
 }
 .btn:hover {
-	/* 4 Visual */
+	/* 3 Typography */
 	color: $color-blue;
+
+	/* 4 Visual */
 	background-color: $color-white;
 }
 .btn:focus {
-	/* 4 Visual */
+	/* 3 Typography */
 	color: $color-blue;
+
+	/* 4 Visual */
 	background-color: $color-white;
 }
 .btn .icon {
@@ -66,6 +70,26 @@
 .btn .icon:last-child:not(:first-child) {
 	/* 2 Block model */
 	margin-left: 15px;
+}
+.btn--form {
+	/* 4 Visual */
+	border: 1px solid $color-blue;
+}
+.btn--form:hover {
+	/* 3 Typography */
+	color: $color-blue;
+
+	/* 4 Visual */
+	background-color: $color-white;
+	border: 1px solid $color-blue;
+}
+.btn--form:focus {
+	/* 3 Typography */
+	color: $color-blue;
+
+	/* 4 Visual */
+	background-color: $color-white;
+	border: 1px solid $color-blue;
 }
 
 /* -------------------------------------------- */

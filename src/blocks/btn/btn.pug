@@ -4,7 +4,7 @@ mixin btn(data)
 		if data.url
 			- var link = data.url
 
-		a.btn(href=link, class!=attributes.class, id!=attributes.id, role="button")
+		a.btn(href=link, class!=attributes.class, id!=attributes.id, role="button", rel!=attributes.rel)
 			if data.icon_l
 				+icon(data.icon_l)
 
@@ -18,7 +18,7 @@ mixin btn(data)
 		if data.type && data.type === 'submit'
 			- var type = 'submit'
 
-		button.btn(class!=attributes.class, id!=attributes.id, type=type, name=data.name)
+		button.btn(class!=attributes.class, id!=attributes.id, type=type, name=data.name, rel!=attributes.rel)
 			if data.icon_l
 				+icon(data.icon_l)
 

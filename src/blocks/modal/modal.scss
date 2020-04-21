@@ -1,0 +1,88 @@
+.modal-form {
+	/* 2 Block model */
+	box-sizing: border-box;
+	width: 100%;
+	max-width: 535px;
+	padding: 20px 15px;
+
+	/* 4 Visual */
+	border-radius: 15px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 50px 46px;
+	}
+}
+.modal-form__title {
+	/* 2 Block model */
+	margin: 0;
+	margin-bottom: 18px;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 28px;
+	color: #4F4F4F;
+	text-align: center;
+	text-transform: uppercase;
+}
+.modal-form__text {
+	/* 2 Block model */
+	display: block;
+	margin-bottom: 33px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 26px;
+	color: #4F4F4F;
+	text-align: center;
+}
+.modal-form__body .form__group:last-child {
+	/* 3 Typography */
+	text-align: center;
+}
+.modal-accepted {
+	/* 2 Block model */
+	max-width: 535px;
+	padding: 35px 15px;
+
+	/* 4 Visual */
+	border-radius: 15px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		padding: 100px 46px;
+	}
+}
+.modal-accepted .modal-form__title {
+	/* 2 Block model */
+	margin-bottom: 38px;
+
+	/* 3 Typography */
+	font-size: 42px;
+	line-height: 52px;
+}
+.modal-accepted .modal-form__text {
+	/* 2 Block model */
+	margin-bottom: 0;
+
+	/* 3 Typography */
+	font-family: $font-second;
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 34px;
+	color: #4F4F4F;
+}
+
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation */
+
+/* 6 Misc */

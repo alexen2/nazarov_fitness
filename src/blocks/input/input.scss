@@ -7,17 +7,18 @@
 	/* 2 Block model */
 	padding: 0;
 	margin: 0;
+	margin-bottom: 4px;
 
 	/* 3 Typography */
-	font-family: $font-main;
-	font-size: 14px;
-	font-weight: 400;
-	line-height: 16px;
-	color: black;
+	font-family: $font-second;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+	color: #4F4F4F;
 }
 .input input {
 	/* 2 Block model */
-	padding: 5px 10px;
+	padding: 14px 10px;
 	margin: 0;
 
 	/* 3 Typography */
@@ -25,18 +26,18 @@
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 16px;
-	color: black;
+	color: #4F4F4F;
 
 	/* 4 Visual */
-	border: 2px solid black;
+	border: 1px solid #333333;
 }
 .input input::-webkit-input-placeholder {
 	/* 3 Typography */
-	color: red;
+	color: $color-black200;
 }
 .input input::-moz-placeholder {
 	/* 3 Typography */
-	color: red;
+	color: $color-black200;
 	text-overflow: ellipsis;
 
 	/* 4 Visual */
@@ -44,7 +45,7 @@
 }
 .input input:-moz-placeholder {
 	/* 3 Typography */
-	color: red;
+	color: $color-black200;
 	text-overflow: ellipsis;
 
 	/* 4 Visual */
@@ -52,7 +53,7 @@
 }
 .input input:-ms-input-placeholder {
 	/* 3 Typography */
-	color: red;
+	color: $color-black200;
 	text-overflow: ellipsis;
 }
 .input input[placeholder] {
@@ -64,9 +65,3 @@
 	cursor: pointer;
 	opacity: 0.7;
 }
-// .input input:focus {
-
-// }
-// .input input:active {
-
-// }
