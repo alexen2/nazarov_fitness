@@ -18,16 +18,6 @@
 		padding-right: 42px;
 	}
 }
-.contacts-right {
-	@media (min-width: 768px) {
-		/* 2 Block model */
-		padding-top: 15px;
-	}
-	@media (min-width: 1400px) {
-		/* 2 Block model */
-		padding-top: 53px;
-	}
-}
 .contacts-right .h2 {
 	/* 1 Positioning */
 	margin-bottom: 10px;
@@ -62,6 +52,10 @@
 	font-weight: 700;
 	line-height: 24px;
 	color: $color-white;
+}
+.contacts__adress-title:nth-child(4) {
+	/* 2 Block model */
+	margin-bottom: 20px;
 }
 .contacts__adress a {
 	/* 3 Typography */
