@@ -1,4 +1,14 @@
 $('#distributorLink').on('click', function(event) {
   event.preventDefault();
-  $('#distributor').submit();
+
+  let form = $("#distributor").serialize();
+
+	$.ajax({
+    type: "POST",
+    url: "mail.php",
+    data: form,
+    success: function(msg){
+    }
+	});
+
 });
