@@ -1,14 +1,18 @@
-$('#distributorLink').on('click', function(event) {
-  event.preventDefault();
+const form = () => {
+  $('#distributorLink').on('click', function(event) {
+    event.preventDefault();
 
-  let form = $("#distributor").serialize();
+    let form = $("#distributor").serialize();
 
-	$.ajax({
-    type: "POST",
-    url: "mail.php",
-    data: form,
-    success: function(msg){
-    }
-	});
+    $.ajax({
+      type: "POST",
+      url: "mail.php",
+      data: form,
+      success: function(msg){
+      }
+    });
 
-});
+  });
+}
+
+export default form;

@@ -1,7 +1,7 @@
 {
   "name": "raif-uslro",
   "version": "1.0.0",
-  "description": "http://raif-uslro.indep.pro/",
+  "description": "",
   "main": "index.js",
   "dependencies": {
     "del": "^5.0.0",
@@ -15,7 +15,13 @@
     "gulp-svgstore": "^7.0.1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.7",
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "browser-sync": "^2.26.10",
+    "core-js": "^3.4.2",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.2.0",
@@ -24,7 +30,9 @@
     "gulp-uglify": "^3.0.2",
     "stylelint": "^13.1.0",
     "stylelint-config-recess-order": "^2.0.3",
-    "stylelint-config-standard": "^20.0.0"
+    "stylelint-config-standard": "^20.0.0",
+    "webpack": "^4.41.2",
+    "webpack-stream": "^5.2.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,9 +43,5 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/indep.pro/raif-uslro/issues"
-  },
-  "homepage": "https://gitlab.com/indep.pro/raif-uslro#readme"
+  "license": "ISC"
 }

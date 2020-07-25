@@ -16,6 +16,7 @@ const svgmin = require('gulp-svgmin');
 const imagemin = require('gulp-imagemin');
 const rename = require("gulp-rename");
 const gulpStylelint = require('gulp-stylelint');
+const webpack = require("webpack-stream");
 
 let path = {
   build: {
@@ -29,7 +30,7 @@ let path = {
     style: 'src/sass/style.scss',
     pug: 'src/pages/*.pug',
     img: 'src/blocks/**/*.{png,jpg,jpeg,svg,gif}',
-    js: 'src/blocks/**/*.js',
+    js: 'src/blocks/main.js',
     resources_img: 'src/resources/images/*.{png,jpg,jpeg,svg,gif,ico}',
     resources_js: 'src/resources/js/*.js',
     resources_fonts: 'src/resources/fonts/*.{eot,svg,ttf,woff,woff2,otf}',
@@ -86,11 +87,40 @@ function html() {
     .pipe(gulp.dest(path.build.html));
 }
 
+// function js() {
+//   return gulp.src(path.src.js)
+//   .pipe(plumber(plumberCfg))
+//   .pipe(concat('script.js'))
+//   .pipe(gulp.dest(path.build.js))
+// }
+
 function js() {
   return gulp.src(path.src.js)
-  .pipe(plumber(plumberCfg))
-  .pipe(concat('script.js'))
-  .pipe(gulp.dest(path.build.js))
+    .pipe(webpack({
+      mode: 'production',
+      output: {
+        filename: 'script.js'
+      },
+      devtool: "source-map",
+      module: {
+        rules: [
+          {
+            test: /\.m?js$/,
+            exclude: /(node_modules|bower_components)/,
+            use: {
+              loader: 'babel-loader',
+              options: {
+                presets: [['@babel/preset-env', {
+                  corejs: 3,
+                  useBuiltIns: "usage"
+                }]]
+              }
+            }
+          }
+        ]
+        }
+    }))
+    .pipe(gulp.dest(path.build.js));
 }
 
 function images() {
