@@ -26,6 +26,19 @@
 	color: $color-white;
 }
 
+.footer--in {
+	/* 2 Block model */
+	padding: 0;
+	
+	/* 3 Typography */
+	text-align: left;
+	color: #ffffff;
+}
+.footer--in .container {
+	/* 2 Block model */
+	padding: 14px 82px;
+}
+
 /* 1 Positioning */
 
 /* 2 Block model */

@@ -1,0 +1,25 @@
+.shop-sidebar-product {
+  /* 1 Positioning */
+
+  /* 2 Block model */
+  display: flex;
+  justify-content: space-between;
+
+  /* 3 Typography */
+  font-size: 18px;
+  line-height: 25px;
+
+  /* 4 Visual */
+
+  /* 5 Animation */
+
+  /* 6 Misc */  
+}
+.shop-sidebar-product__price {
+  /* 2 Block model */
+  width: 90px;
+  flex: 0 0 90px;
+
+  /* 3 Typography */
+  text-align: right;
+}

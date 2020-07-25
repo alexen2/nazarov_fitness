@@ -1,0 +1,46 @@
+.shop {
+  /* 1 Positioning */
+
+  /* 2 Block model */
+
+  /* 3 Typography */
+
+  /* 4 Visual */
+  background-color: #ffffff;
+  color: $color-black200;
+
+  /* 5 Animation */
+
+  /* 6 Misc */
+}
+.shop__header {
+  /* 2 Block model */
+  padding-bottom: 54px;
+}
+.shop__body {
+  /* 2 Block model */
+  padding-left: 50px;
+}
+.shop .h2 {
+  /* 3 Typography */
+  text-align: left;
+  color: $color-black200;
+}
+.shop__info {
+  /* 2 Block model */
+  margin-bottom: 80px;
+}
+.shop__info .h2 {
+  /* 2 Block model */
+  margin-bottom: 25px;
+
+  /* 3 Typography */
+  text-align: center;
+}
+.shop .text {
+  /* 3 Typography */
+  text-align: left;
+  color: $color-black200;
+  font-size: 20px;
+  line-height: 27px;
+}

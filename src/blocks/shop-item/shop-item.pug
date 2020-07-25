@@ -1,0 +1,17 @@
+mixin shop-item(data)
+  div.shop-item
+    a(href="/"+data.id)
+      img.shop-item__img(src="images/"+data.id+".png" alt=data.title)
+
+    a.shop-item__title(href="/"+data.id)!=data.title
+
+    div.shop-item__action
+      div.shop-item__price!=data.price+".00 ₽"
+
+      +btn({
+        icon_l: 'icon--shop-cart'
+      })(
+        class="addToCart"
+      )
+
+    a.shop-item__more(href="/"+data.id) Подробнее о товаре 

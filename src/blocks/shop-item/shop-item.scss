@@ -1,0 +1,82 @@
+.shop-item {
+  /* 1 Positioning */
+
+  /* 2 Block model */
+  max-width: 240px;
+  margin: 0 auto;
+  padding: 10px;
+
+  /* 3 Typography */
+  text-align: center;
+
+  /* 4 Visual */
+
+  /* 5 Animation */
+
+  /* 6 Misc */
+}
+.shop-item__img {
+  /* 2 Block model */
+  display: block;
+  width: 100%;
+  max-width: 156px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+.shop-item__title {
+  /* 2 Block model */
+  display: block;
+  margin-bottom: 10px; 
+  
+  /* 3 Typography */
+  font-size: 16px;
+  line-height: 22px;
+  color: $color-black200;
+  text-decoration: none;
+}
+.shop-item__title:hover {
+  /* 3 Typography */
+  text-decoration: underline;
+}
+.shop-item__action {
+  /* 2 Block model */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 22px;
+
+  /* 3 Typography */
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 600;
+}
+.shop-item__action .btn {
+  /* 2 Block model */
+  padding: 2px 5px;
+}
+.shop-item__action .icon {
+  /* 2 Block model */
+  display: block;
+  width: 35px;
+  height: 22px;
+}
+.shop-item__action .btn:hover {
+  /* 4 Visual */
+  background-color: $color-blue;
+  opacity: 0.7;
+}
+.shop-item__action .btn:hover .btn__text {
+  /* 3 Typography */
+  color: #ffffff;
+}
+.shop-item__more {
+  /* 3 Typography */
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-black200;
+}
+.shop-item__more:hover {
+  /* 3 Typography */
+  text-decoration: none;
+}

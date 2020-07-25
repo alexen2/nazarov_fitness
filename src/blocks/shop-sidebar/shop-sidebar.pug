@@ -1,0 +1,28 @@
+div.shop-sidebar
+  div.shop-sidebar__header
+    h2 Ваш заказ
+
+  div.shop-sidebar__body
+    ul.shop-sidebar__list(id="shopSidebarList")
+      li.shop-sidebar__item
+        include ../shop-sidebar-product/shop-sidebar-product.pug
+
+  div.shop-sidebar__footer
+    ul.shop-sidebar__list
+      li.shop-sidebar__item
+        div.shop-sidebar__footer-item
+          span Итого:
+          span.shop-sidebar__footer-total 0 ₽
+
+      li.shop-sidebar__item
+        div.shop-sidebar__footer-item
+          span Доставка:
+          span.shop-sidebar__footer-delivery 0 ₽
+
+    +btn({
+      text: 'Оформить заказ',
+    })(
+      id="shopSidebarCheckout"
+    )
+
+    p.shop-sidebar__footer-bottom Спасибо за Ваш заказ
