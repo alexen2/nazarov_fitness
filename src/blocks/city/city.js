@@ -9,15 +9,22 @@ const city = () => {
       fadeDuration: 300,
       fadeDelay: 0.50
     });
+  } else {
+    refreshData();
+    // console.log("Ваш город: " + localStorage.getItem('cityName'));
   }
 
   $('.city-select').on('change', function() {
-    let catalogData = JSON.parse(loadData(this.value));
+    let catalogData = loadData(this.value);
+    let responseData = JSON.parse(catalogData);
 
-    if(catalogData.error) {
+    if(responseData.error) {
       console.log('Ошибка загрузки данных!');
     } else {
-      refreshData(catalogData);
+      localStorage.setItem('cityName', this.value);
+      localStorage.setItem('catalogData', catalogData);
+      // console.log("Ваш новый город: " + localStorage.getItem('cityName'));
+      refreshData();
     }    
   }); 
 }

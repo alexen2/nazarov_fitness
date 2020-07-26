@@ -1,0 +1,71 @@
+form.order-form
+  h2.order-form__title Данные покупателя
+
+  div.order-form__block
+    div.order-form__item
+      label(for="") Имя 
+        span *
+
+      input.order-form__required(type="text" name="order_name")
+
+    div.order-form__item
+      label(for="") Телефон 
+        span * 
+
+      input.order-form__required(type="text" name="order_phone")
+
+    div.order-form__item
+      label(for="") E-mail
+
+      input(type="text" name="order_email")
+
+  h2.order-form__title Адрес доставки
+
+  div.order-form__block
+    div.order-form__item
+      label(for="") Город 
+        span *
+
+      input.order-form__required(type="text" name="order_city" value="Выберите город" disabled)
+
+    div.order-form__item
+      label(for="") Улица 
+        span * 
+
+      input.order-form__required(type="text" name="order_street")
+
+    div.order-form__item
+      label(for="") Дом
+        span *
+
+      input.order-form__required(type="text" name="order_house")
+
+    div.order-form__item
+      label(for="") Корпус
+
+      input(type="text" name="order_housing")
+
+    div.order-form__item
+      label(for="") Квартира
+
+      input(type="text" name="order_flat")
+
+    div.order-form__item
+      label(for="") Комментарий
+
+      textarea(name="order_comment")
+
+  div.order-form__footer
+    div.order-form__item.order-form__iagree
+      input( type="checkbox" name="order_iagree")
+      span Я даю согласие на обработку персональных данных
+        i *
+
+    div.order-form__item
+      span 
+        i * 
+        |- поля обязательные для заполнения
+
+  div.order-form__delivery При заказе от 12 шт. доставка бесплатно
+
+

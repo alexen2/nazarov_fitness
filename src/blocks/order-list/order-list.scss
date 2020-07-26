@@ -1,0 +1,65 @@
+.order-list {
+  /* 1 Positioning */
+
+  /* 2 Block model */
+
+  /* 3 Typography */
+
+  /* 4 Visual */
+
+  /* 5 Animation */
+
+  /* 6 Misc */
+}
+.order-list__header {
+  /* 2 Block model */
+  padding-bottom: 16px;
+}
+.order-list .h3 {
+  /* 3 Typography */
+  font-size: 30px;
+  line-height: 40px;
+  color: $color-black200;
+  text-transform: none;
+  text-align: center;  
+}
+.order-list__list {
+  /* 2 Block model */
+  padding: 0;
+  margin: 0;
+  padding-bottom: 28px;
+
+  /* 4 Visual */
+  list-style: none;
+}
+.order-list__item {
+  /* 2 Block model */
+  padding-bottom: 18px;
+}
+.order-list__footer {
+  /* 3 Typography */
+  text-align: right;
+}
+.order-list__footer-list {
+  /* 2 Block model */
+  padding: 0;
+  margin: 0;
+
+  /* 4 Visual */
+  list-style: none;
+}
+.order-list__footer-item {
+  /* 2 Block model */
+  padding-bottom: 10px;
+
+  /* 3 Typography */
+  font-size: 20px;
+  line-height: 27px;
+}
+.order-list__footer-item b {
+  display: inline-block;
+  padding-left: 8px;
+
+  color: $color-blue;
+  font-weight: bold;
+}

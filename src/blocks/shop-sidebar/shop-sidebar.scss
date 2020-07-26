@@ -78,6 +78,13 @@
   background-color: $color-blue;
   opacity: 0.7;
 }
+.shop-sidebar__footer .btn:focus {
+	/* 3 Typography */
+	color: $color-white;
+
+	/* 4 Visual */
+	background-color: $color-blue;
+}
 .shop-sidebar__footer .btn:hover .btn__text {
   /* 3 Typography */
   color: #ffffff;

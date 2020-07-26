@@ -23,3 +23,14 @@
   /* 3 Typography */
   text-align: right;
 }
+.shop-sidebar-product__body {
+  /* 2 Block model */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-grow: 2;
+}
+.shop-sidebar-product__count {
+  /* 2 Block model */
+  flex: 0 0 40px;
+}

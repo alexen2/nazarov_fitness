@@ -4,8 +4,8 @@ div.shop-sidebar
 
   div.shop-sidebar__body
     ul.shop-sidebar__list(id="shopSidebarList")
-      li.shop-sidebar__item
-        include ../shop-sidebar-product/shop-sidebar-product.pug
+      //- li.shop-sidebar__item
+        //- include ../shop-sidebar-product/shop-sidebar-product.pug
 
   div.shop-sidebar__footer
     ul.shop-sidebar__list
@@ -21,6 +21,8 @@ div.shop-sidebar
 
     +btn({
       text: 'Оформить заказ',
+      type: 'link',
+      url: '/order.html'
     })(
       id="shopSidebarCheckout"
     )

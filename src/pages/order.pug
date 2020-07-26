@@ -1,0 +1,18 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Оформление заказа')
+
+	body
+		div.wrapper
+			include ../blocks/mixins.pug
+
+			include ../blocks/header/header--shop.pug
+
+			include ../blocks/order/order.pug
+
+			include ../blocks/footer/footer--in.pug
+
+			include ../blocks/city/city.pug
+
+		include include/script.pug

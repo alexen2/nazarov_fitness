@@ -18,7 +18,7 @@ mixin btn(data)
 		if data.type && data.type === 'submit'
 			- var type = 'submit'
 
-		button.btn(class!=attributes.class, id!=attributes.id, type=type, name=data.name, rel!=attributes.rel)
+		button.btn(class!=attributes.class, data-id=data.data_id, id!=attributes.id, type=type, name=data.name, rel!=attributes.rel)
 			if data.icon_l
 				+icon(data.icon_l)
 

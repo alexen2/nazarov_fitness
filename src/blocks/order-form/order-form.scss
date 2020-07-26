@@ -1,0 +1,102 @@
+.order-form {
+  /* 1 Positioning */
+
+  /* 2 Block model */
+  padding: 15px 30px;
+
+  /* 3 Typography */
+
+  /* 4 Visual */
+  background-color: #DDDDDD;
+  
+  /* 5 Animation */
+
+  /* 6 Misc */
+}
+.order-form__title {
+  /* 2 Block model */
+  margin: 0;
+  padding: 0;
+
+  /* 3 Typography */
+  font-size: 30px;
+  line-height: 40px;
+  text-transform: none;
+  text-align: center;
+  color: $color-black200;
+}
+.order-form__block {
+  /* 2 Block model */
+  padding-bottom: 12px;
+}
+.order-form__item {
+  /* 2 Block model */
+  padding-bottom: 5px;
+}
+.order-form label {
+  /* 2 Block model */
+  display: block;
+
+  /* 3 Typography */
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-black200;
+}
+.order-form label span {
+  /* 3 Typography */
+  color: $color-red;
+}
+.order-form input[type="text"] {
+  /* 2 Block model */
+  display: block;
+  box-sizing: border-box;
+  padding: 3px 7px;
+  width: 100%;
+
+  /* 3 Typography */
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-black200;
+
+  /* 4 Visual */
+  border: 1px solid #DDDDDD;
+}
+.order-form input[type="text"].order-form__error {
+  /* 4 Visual */
+  border: 1px solid $color-red;
+}
+.order-form textarea {
+  /* 2 Block model */
+  display: block;
+  box-sizing: border-box;
+  padding: 3px 7px;
+  width: 100%;
+  min-height: 68px;
+
+  /* 3 Typography */
+  font-size: 15px;
+  line-height: 20px;
+  color: $color-black200;
+
+  /* 4 Visual */
+  border: 1px solid #DDDDDD;
+}
+.order-form__footer span {
+  /* 3 Typography */
+  font-size: 12px;
+  line-height: 16px;
+}
+.order-form__footer span i {
+  /* 3 Typography */
+  color: $color-red;
+  font-style: normal;
+}
+.order-form__delivery {
+  /* 3 Typography */
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: bold;
+  color: $color-blue;
+  text-align: center;
+  text-transform: uppercase;
+}

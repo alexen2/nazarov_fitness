@@ -66,6 +66,13 @@
   background-color: $color-blue;
   opacity: 0.7;
 }
+.shop-item__action .btn:focus {
+	/* 3 Typography */
+	color: $color-white;
+
+	/* 4 Visual */
+	background-color: $color-blue;
+}
 .shop-item__action .btn:hover .btn__text {
   /* 3 Typography */
   color: #ffffff;

@@ -1,0 +1,37 @@
+.order {
+  /* 1 Positioning */
+
+  /* 2 Block model */
+
+  /* 3 Typography */
+
+  /* 4 Visual */
+  background-color: #ffffff;
+  color: $color-black200;
+
+  /* 5 Animation */
+
+  /* 6 Misc */
+}
+.order__footer {
+  /* 2 Block model */
+  padding-top: 28px;
+
+  /* 3 Typography */
+  text-align: center;
+}
+.order__footer .btn:hover {
+  /* 3 Typography */
+  color: #ffffff;
+
+  /* 4 Visual */
+  background-color: $color-blue;
+  opacity: 0.7;
+}
+.order__footer .btn:focus {
+  /* 3 Typography */
+  color: #ffffff;
+
+  /* 4 Visual */
+  background-color: $color-blue;
+}

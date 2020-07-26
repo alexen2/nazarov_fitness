@@ -1,0 +1,15 @@
+div.order-list-item
+  div.order-list-item__body
+    span.order-list-item__number 1.
+    span.order-list-item__title Лагман с митболами из говядины белковыми
+
+  div.order-list-item__action
+    div.order-list-item__price 183,00 ₽
+    
+    div.order-list-item__action-body
+      +btn({icon_l: 'icon--cart-del'})(class="cartDel")
+
+      div.order-list-item__count-wrap
+        +btn({text: '-', data_id: 'id123'})(class="cartMinus")
+        span.order-list-item__count 1
+        +btn({text: '+', data_id: 'id123'})(class="cartPlus")

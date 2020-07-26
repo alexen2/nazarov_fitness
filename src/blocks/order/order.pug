@@ -1,0 +1,12 @@
+div.order
+  div.container.container--shop
+    div.row
+      div.col-12.col-md-5
+        include ../order-list/order-list.pug
+
+      div.col-12.col-md-6.offset-md-1
+        include ../order-form/order-form.pug
+
+    div.row.order__footer
+      div.col-12
+        +btn({text: 'Оформить заказ'})(id="orderDone")

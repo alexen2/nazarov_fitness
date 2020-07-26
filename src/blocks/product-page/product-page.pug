@@ -1,0 +1,15 @@
+mixin product-page(data)
+  div.product-page
+    div.container.container--product-page
+      div.row
+        div.col-12.col-md-4
+          img.product-page__img(src="images/"+data.img alt=data.title)
+
+        div.col-12.col-md-8
+          div.product-page__body
+            div.product-page__header
+              h1.h2!=data.title
+
+            div.product-page__text!=data.text
+
+            div buy
