@@ -215,50 +215,174 @@
 	/* 5 Animation */
 	transition: all 0.2s;
 }
+.header__city {
+	/* 2 Block model */
+	flex: 0 0 auto;
+	margin-bottom: 25px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 20px;
+		margin-bottom: 0;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		margin-right: 70px;
+	}
+}
+.header__city select {
+	/* 2 Block model */
+	box-sizing: border-box;
+	display: block;
+	padding: 0 35px 0 0;
+	margin: 0;
+	margin-left: 28px;
 
-.header__city select { 
-  display: block; 
-  font-size: 20px;
-  line-height: 28px; 
-  color: $color-blue; 
-  padding: 0 35px 0 0; 
-  width: 100%; 
-  max-width: 100%; 
-  box-sizing: border-box; 
-  margin: 0; 
-  border: none;
-  // box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
-  border-radius: .5em;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  appearance: none;
-  background: none; 
-  background-image: url(../images/header__city-select.svg);
-  background-repeat: no-repeat, repeat;
-  background-position: right .7em top 50%, 0 0;
-  background-size: .65em auto, 100%; 
-} 
-.header__city select::-ms-expand { display: none; } 
-// .header-city select:hover { border-color: #888; } 
-.header__city select:focus { 
-  // border-color: #aaa; 
-  // box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
-  // box-shadow: 0 0 0 3px -moz-mac-focusring; 
-  color: $color-blue;
-  outline: none; 
-} 
-.header__city select option { 
-  font-weight: normal; 
-} 
+	/* 3 Typography */
+	font-size: 20px;
+	line-height: 28px;
+	color: $color-blue;
 
-/* 1 Positioning */
+	/* 4 Visual */
+	border: none;
+	// box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+	border-radius: 0.5em;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	background: none;
+	background-image: url(../images/header__city-select.svg);
+	background-repeat: no-repeat, repeat;
+	background-position: right 0.4em top 50%, 0 0;
+	background-size: 0.65em auto, 100%;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		width: 100%;
+		max-width: 100%;
+		margin-left: 0;
+	}
+}
+.header__city select::-ms-expand {
+	display: none;
+}
+// .header-city select:hover { border-color: #888; }
+.header__city select:focus {
+	// border-color: #aaa;
+	// box-shadow: 0 0 1px 3px rgba(59, 153, 252, .7);
+	// box-shadow: 0 0 0 3px -moz-mac-focusring;
+	color: $color-blue;
+	outline: none;
+}
+.header__city select option {
+	font-weight: normal;
+}
+.header__basket {
+	/* 2 Block model */
+	margin-right: 50px;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		margin-left: 62px;
+	}
+}
+.header__basket-body {
+	/* 1 Positioning */
+	position: relative;
 
-/* 2 Block model */
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 51px;
+	height: 51px;
 
-/* 3 Typography */
+	/* 4 Visual */
+	border-radius: 50%;
+	background-color: #f0f6ff;
+}
+.header__basket-number {
+	/* 1 Positioning */
+	position: absolute;
+	top: 7px;
+	right: 5px;
 
-/* 4 Visual */
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 20px;
+	height: 20px;
 
-/* 5 Animation */
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #ffffff;
 
-/* 6 Misc */
+	/* 4 Visual */
+	border-radius: 50%;
+	background-color: #f96666;
+}
+.header--shop .header__logo {
+	/* 2 Block model */
+	flex: 1 1 auto;
+}
+.header--shop .header__right {
+	/* 2 Block model */
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		display: flex;
+		flex: 0 1 auto;
+		flex-direction: row;
+		align-items: center;
+		width: auto;
+		max-width: 100%;
+	}
+}
+.header--shop .header__nav {
+	/* 2 Block model */
+	align-items: center;
+}
+.header--shop .header__menu {
+	/* 2 Block model */
+	width: auto;
+	max-width: 100%;
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 28px;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		margin-right: 56px;
+	}
+}
+
+.header--shop .menu__list > li {
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		margin-right: 16px;
+	}
+	@media (min-width: 1400px) {
+		/* 2 Block model */
+		margin-right: 32px;
+	}
+}
+.header--shop .menu__list > li:last-child {
+	/* 2 Block model */
+	margin-right: 0;
+}
+.header--shop .header__tel {
+	@media (min-width: 992px) {
+		/* 2 Block model */
+		display: none;
+	}
+	@media (min-width: 1200px) {
+		/* 2 Block model */
+		display: block;
+		flex: 0 0 auto;
+	}
+}
