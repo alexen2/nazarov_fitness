@@ -6,8 +6,12 @@ const order = () => {
   orderList();
   orderListItem();
 
+  let cityName = $('.city-select option:selected').html();
+  $('.order-form [name="order_city"]').val(cityName);
+
   $('#orderDone').on('click', function() {
     if(orderForm()) {
+      $('.order').html('');
       console.log('orderDone');
     } else {
       console.log('orderFalse');
