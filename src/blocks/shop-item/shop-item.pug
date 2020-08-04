@@ -1,20 +1,19 @@
 mixin shop-item(data)
-  div.shop-item(id=data.id)
-    a(href="/"+data.id)
-      img.shop-item__img(src="images/"+data.id+".png" alt=data.title)
+	div.shop-item(id=data.id)
+		span.shop-item__calories!=data.calories
+		div.shop-item__body
+			a(href="/"+data.id)
+				img.shop-item__img(src="images/"+data.id+".png" alt=data.title)
 
-    a.shop-item__title(href="/"+data.id)!=data.title
 
-    div.shop-item__action
-      div.shop-item__price
-        span!=data.price
-        |.00 ₽
-        
-      +btn({
-        icon_l: 'icon--shop-cart',
-        data_id: data.id
-      })(
-        class="addToCart"
-      )
+			a.shop-item__title(href="/"+data.id)!=data.title
 
-    a.shop-item__more(href="/"+data.id+".html") Подробнее о товаре 
+			p.shop-item__desc!=data.desc
+
+		div.shop-item__action
+			div.shop-item__price
+				span!=data.price
+				|.00 ₽
+			+btn({text: 'В корзину', data_id: data.id})(class="btn--green")
+
+		//- a.shop-item__more(href="/"+data.id+".html") Подробнее о товаре 

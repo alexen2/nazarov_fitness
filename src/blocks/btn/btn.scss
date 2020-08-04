@@ -15,7 +15,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 26px;
-	color: #FFFFFF;
+	color: #ffffff;
 	text-decoration: none;
 	vertical-align: middle;
 
@@ -54,7 +54,7 @@
 	height: 15px;
 
 	/* 4 Visual */
-	fill: #FFFFFF;
+	fill: #ffffff;
 
 	/* 5 Animation */
 	transition: all 0.4s;
@@ -99,6 +99,8 @@
  *
  */
 
-@import '--block/--block';
-@import '--outline/--outline';
-@import '--flat/--flat';
+@import "--block/--block";
+@import "--outline/--outline";
+@import "--flat/--flat";
+@import "--green/--green";
+@import "--black/--black";

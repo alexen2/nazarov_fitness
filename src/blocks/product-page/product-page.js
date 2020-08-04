@@ -1,5 +1,5 @@
-const productPage = () => {
-  
-}
+// const productPage = () => {
 
-export default productPage;
+// }
+
+// export default productPage;

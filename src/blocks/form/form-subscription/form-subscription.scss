@@ -1,0 +1,21 @@
+.form-subscription__form {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		flex-direction: row;
+	}
+}
+.form-subscription__form-item:first-child {
+	/* 2 Block model */
+	width: 100%;
+	max-width: 435px;
+	margin-bottom: 30px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		margin-right: 10px;
+		margin-bottom: 0;
+	}
+}

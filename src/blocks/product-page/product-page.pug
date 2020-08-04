@@ -1,15 +1,73 @@
-mixin product-page(data)
-  div.product-page
-    div.container.container--product-page
-      div.row
-        div.col-12.col-md-4
-          img.product-page__img(src="images/"+data.img alt=data.title)
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Суп лапша куриная
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 400 г
+				div.product-page__img
+					img(src="images/product-page__img-01.jpg" alt="Суп лапша куриная" title="Суп лапша куриная")
 
-        div.col-12.col-md-8
-          div.product-page__body
-            div.product-page__header
-              h1.h2!=data.title
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Суп лапша куриная
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 400 г
 
-            div.product-page__text!=data.text
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text Вода, митболы из говядины белковые ( говядина, лук репчатый, белок яичный, белок из говяжьего бульона, концентрированный сывороточный белок, соль, чеснок, перец черный молотый), перец болгарский свежий, морковь свежая, лук репчатый свежий, лапша яичная...
+							br
+							a.link.link--black(href="#" target="_blank")
 
-            div buy
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 6,44 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 3,90 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 4,91 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 66,6
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 400 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 25,77 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 15,61 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 19,63 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 266,2
+
+					div.product-page__action
+						span.product-page__price 250 p.
+						div.product-page__increase
+						+btn({text: 'Добавить в корзину'})(class="btn--green")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					p.text-14 tabs

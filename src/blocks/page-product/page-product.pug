@@ -5,88 +5,117 @@ section.page-product
 				div.page-product__breadcrumbs
 					+breadcrumbs({items:['Каталог','Оформление заказа']})
 	div.page-product__item
-		+product-page({
-			img: 'borshch_s_mitbolami.jpg',
-			title: 'Борщ с митболами из говядины белковыми',
-			text: '1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.<br>'
-			})
-	div.page-product__catalog
-		div.container
-			div.row
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
-				div.col-12.col-md-3
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Борщ с митболами из говядины белковыми',
-							price: '0'
-						})
+		include ../product-page/product-page.pug
 	div.page-product__catalog
 		div.container
 			div.row
 				div.col-12
-					//- include subscription
+					h2.h2-32.page-product__title-2 Каталог
+			div.row
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Фо бо',
+							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
+							price: '183',
+							calories: '266 ккал'
+						})
+	div.page-product__form
+		include ../subscription-form/subscription-form.pug
+
 	div.page-product__delivery
 		div.container
 			div.row
+				div.col-12
+					h2.h2-32.page-product__title-3 Доставка
+			div.row
 				div.col-12.col-md-4
 					div.page-product__delivery-item
+						+item-delivery({value: '01', desc: 'Доставка осуществляется после подтверждения заказа и согласования даты и времени.'})
 				div.col-12.col-md-4
 					div.page-product__delivery-item
+						+item-delivery({value: '02', desc: 'Курьеры обеспечены медицинскими масками и санитайзерами для обработки рук.'})
 				div.col-12.col-md-4
 					div.page-product__delivery-item
+						+item-delivery({value: '03', desc: 'За 30 минут до приезда курьер позвонит Вам для подтверждения доставки.'})
+				div.col-12.col-md-4
+					div.page-product__delivery-item
+						+item-delivery({value: '04', desc: 'Все сотрудники склада и службы доставки проходят ежедневные медосмотры.'})
+				div.col-12.col-md-4
+					div.page-product__delivery-item
+						+item-delivery({value: '05', desc: 'На складе и во время доставки соблюдается необходимый температурный режим'})
+				div.col-12.col-md-4
+					div.page-product__delivery-item
+						+item-delivery({value: '06', desc: 'Вся продукция герметично упакована, транспортная тара опломбирована.'})
 	div.page-product__bottom
 		div.container
 			div.row
 				div.col-12
-					//- include link-catalog
+					+link-icon({text: 'Вернуться в каталог'})
+
 
 

@@ -1,0 +1,35 @@
+.input--email input {
+	/* 2 Block model */
+	padding: 11px 12px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	color: #717687;
+
+	/* 4 Visual */
+	border: 1px solid #e1e1e1;
+	border-radius: 3px;
+	background-color: #ffffff;
+}
+.input--email input::-webkit-input-placeholder {
+	/* 3 Typography */
+	color: #717687;
+}
+.input--email input::-moz-placeholder {
+	/* 3 Typography */
+	color: #717687;
+	text-overflow: ellipsis;
+}
+.input--email input:-moz-placeholder {
+	/* 3 Typography */
+	color: #717687;
+	text-overflow: ellipsis;
+}
+.input--email input:-ms-input-placeholder {
+	/* 3 Typography */
+	color: #717687;
+	text-overflow: ellipsis;
+}

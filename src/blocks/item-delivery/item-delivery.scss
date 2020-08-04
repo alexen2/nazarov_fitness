@@ -1,0 +1,30 @@
+.item-delivery {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.item-delivery__value {
+	/* 2 Block model */
+	margin-right: 18px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 35px;
+	font-weight: 300;
+	line-height: 35px;
+	color: #000000;
+}
+.item-delivery__desc {
+	/* 2 Block model */
+	width: 100%;
+	max-width: 340px;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: #717687;
+}

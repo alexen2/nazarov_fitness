@@ -331,6 +331,14 @@
 	/* 2 Block model */
 	flex: 1 1 auto;
 }
+.header--shop .logo {
+	/* 2 Block model */
+	max-width: 110px;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		max-width: 176px;
+	}
+}
 .header--shop .header__right {
 	/* 2 Block model */
 	@media (min-width: 992px) {

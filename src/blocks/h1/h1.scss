@@ -20,3 +20,19 @@
 		line-height: 92px;
 	}
 }
+.h1-36 {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 30px;
+	font-weight: 600;
+	line-height: 43px;
+	color: $color-black200;
+	@media (min-width: 992px) {
+		/* 3 Typography */
+		font-size: 36px;
+		line-height: 49px;
+	}
+}
