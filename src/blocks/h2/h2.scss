@@ -21,6 +21,22 @@
 		line-height: 52px;
 	}
 }
+.h2-22 {
+	/* 2 Block model */
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	color: $color-black200;
+	@media (min-width: 992px) {
+		/* 3 Typography */
+		font-size: 22px;
+		line-height: 30px;
+	}
+}
 .h2-32 {
 	/* 2 Block model */
 	margin: 0;

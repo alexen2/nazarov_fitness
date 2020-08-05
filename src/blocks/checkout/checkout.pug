@@ -1,0 +1,29 @@
+section.checkout
+	div.container
+		div.row
+			div.col-12
+				div.checkout__breadcrumbs
+					+breadcrumbs({items:['Каталог','Оформление заказа']})
+		div.row
+			div.col-12
+				h1.h1-36.checkout__title Оформление заказа
+	div.checkout__info
+		div.container
+			div.row
+				div.col-12.col-lg-8.order-2.order-lg-1
+					div.checkout__form
+						include ../form/form-info/form-info.pug
+				div.col-12.col-lg-4.order-1.order-lg-2
+					div.checkout__shop-sidebar
+						include ../shop-sidebar/shop-sidebar.pug
+
+	div.checkout__subscription
+		include ../subscription-form/subscription-form.pug
+
+	div.checkout__delivery
+		include ../delivery/delivery.pug
+	div.checkout__bottom
+		div.container
+			div.row
+				div.col-12
+					+link-icon({text: 'Вернуться в каталог'})

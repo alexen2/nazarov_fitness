@@ -1,0 +1,23 @@
+.quantity--sidebar input {
+	/* 4 Visual */
+	border: none;
+}
+.quantity--sidebar-button {
+	/* 4 Visual */
+	border: none;
+}
+.quantity--sidebar .quantity-button:hover {
+	/* 3 Typography */
+	color: $color-black200;
+
+	/* 4 Visual */
+	background-color: transparent;
+}
+.quantity--sidebar .quantity-button.quantity-up {
+	/* 4 Visual */
+	border: none;
+}
+.quantity--sidebar .quantity-button.quantity-down {
+	/* 4 Visual */
+	border: none;
+}

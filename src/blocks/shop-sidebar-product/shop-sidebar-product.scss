@@ -1,36 +1,41 @@
-.shop-sidebar-product {
-  /* 1 Positioning */
-
-  /* 2 Block model */
-  display: flex;
-  justify-content: space-between;
-
-  /* 3 Typography */
-  font-size: 18px;
-  line-height: 25px;
-
-  /* 4 Visual */
-
-  /* 5 Animation */
-
-  /* 6 Misc */  
+.shop-sidebar-product__body {
+	/* 2 Block model */
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.shop-sidebar-product__left {
+	/* 2 Block model */
+	display: flex;
+	flex: 1 1 auto;
+	align-items: center;
+	padding-right: 10px;
+}
+.shop-sidebar-product__canceling {
+	/* 2 Block model */
+	display: flex;
+	margin-right: 17px;
+}
+.shop-sidebar-product__img {
+	/* 2 Block model */
+	flex: 0 0 50px;
+	margin-right: 17px;
+}
+.shop-sidebar-product__img img {
+	/* 2 Block model */
+	display: block;
+	width: 100%;
+	max-width: 50px;
+}
+.shop-sidebar-product__info {
+	/* 2 Block model */
+	padding-top: 4px;
+}
+.shop-sidebar-product__title {
+	/* 2 Block model */
+	display: block;
 }
 .shop-sidebar-product__price {
-  /* 2 Block model */
-  width: 90px;
-  flex: 0 0 90px;
-
-  /* 3 Typography */
-  text-align: right;
-}
-.shop-sidebar-product__body {
-  /* 2 Block model */
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-grow: 2;
-}
-.shop-sidebar-product__count {
-  /* 2 Block model */
-  flex: 0 0 40px;
+	/* 2 Block model */
+	display: block;
 }

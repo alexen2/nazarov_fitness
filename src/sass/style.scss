@@ -36,7 +36,9 @@
 @import "../blocks/order-list-item/order-list-item";
 @import "../blocks/subscription-form/subscription-form";
 @import "../blocks/form/form-subscription/form-subscription";
+@import "../blocks/form/form-info/form-info";
 @import "../blocks/tabs/tabs";
+@import "../blocks/delivery/delivery";
 
 // Main Blocks
 
@@ -68,4 +70,5 @@
 @import "../blocks/order/order.scss";
 @import "../blocks/order-list/order-list.scss";
 @import "../blocks/page-product/page-product.scss";
+@import "../blocks/checkout/checkout";
 @import "../blocks/order-form/order-form.scss";

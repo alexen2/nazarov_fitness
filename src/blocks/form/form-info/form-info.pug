@@ -1,0 +1,30 @@
+div.form-info
+	form.form-info(action="#" method="post")
+		h2.h2-22.form-info__title Контактная информация
+		div.form-info__row
+			div.form-info__item
+				+input({type: 'text', name: 'name_client', label_text: '<span>*</span>Имя', placeholder: 'Ваше Имя'})(class="input--form input--error")
+			div.form-info__item
+				+input({type: 'tel', name: 'tel_client', label_text: '<span>*</span>Телефон', placeholder: 'Ваш Телефон'})(class="input--form")
+			div.form-info__item
+				+input({type: 'email', name: 'email_client_2', label_text: '<span>*</span>E-mail', placeholder: 'Ваш E-mail'})(class="input--form")
+		h2.h2-22.form-info__title Адрес доставки
+		div.form-info__row
+			div.form-info__item
+				+input({type: 'text', name: 'city_client', label_text: '<span>*</span>Город', placeholder: 'Ваш Город'})(class="input--form")
+			div.form-info__item
+				+input({type: 'text', name: 'street_client', label_text: '<span>*</span>Улица', placeholder: 'Ваша Улица'})(class="input--form")
+			div.form-info__item.form-info__item--sm
+				+input({type: 'text', name: 'home_client', label_text: '<span>*</span>Дом', placeholder: 'Ваш Дом'})(class="input--form")
+			div.form-info__item.form-info__item--sm
+				+input({type: 'text', name: 'building_client', label_text: 'Корпус', placeholder: 'Ваш Корпус'})(class="input--form")
+			div.form-info__item.form-info__item--sm
+				+input({type: 'text', name: 'apartment_client', label_text: 'Квартира', placeholder: 'Ваша Квартира'})(class="input--form")
+			div.form-info__textarea
+				label(for="massage") Коментарий
+				textarea(id="massage" name="massage" rows="9" placeholder="Введите свой коментарий")
+
+		h2.h2-22.form-info__title Способы оплаты
+		p.text-14.text-14--black.form-info__text Вы можете оплатить заказ наличными курьеру или банковской картой через терминал, который находится у курьера.
+		+btn({text: 'Оформить заказ', type: 'submit'})(class="btn--red")
+

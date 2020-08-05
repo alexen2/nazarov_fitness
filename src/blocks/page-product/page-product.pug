@@ -3,7 +3,7 @@ section.page-product
 		div.row
 			div.col-12
 				div.page-product__breadcrumbs
-					+breadcrumbs({items:['Каталог','Оформление заказа']})
+					+breadcrumbs({items:['Каталог','Суп лапша куриная']})
 	div.page-product__item
 		include ../product-page/product-page.pug
 	div.page-product__catalog
@@ -88,29 +88,8 @@ section.page-product
 		include ../subscription-form/subscription-form.pug
 
 	div.page-product__delivery
-		div.container
-			div.row
-				div.col-12
-					h2.h2-32.page-product__title-3 Доставка
-			div.row
-				div.col-12.col-md-4
-					div.page-product__delivery-item
-						+item-delivery({value: '01', desc: 'Доставка осуществляется после подтверждения заказа и согласования даты и времени.'})
-				div.col-12.col-md-4
-					div.page-product__delivery-item
-						+item-delivery({value: '02', desc: 'Курьеры обеспечены медицинскими масками и санитайзерами для обработки рук.'})
-				div.col-12.col-md-4
-					div.page-product__delivery-item
-						+item-delivery({value: '03', desc: 'За 30 минут до приезда курьер позвонит Вам для подтверждения доставки.'})
-				div.col-12.col-md-4
-					div.page-product__delivery-item
-						+item-delivery({value: '04', desc: 'Все сотрудники склада и службы доставки проходят ежедневные медосмотры.'})
-				div.col-12.col-md-4
-					div.page-product__delivery-item
-						+item-delivery({value: '05', desc: 'На складе и во время доставки соблюдается необходимый температурный режим'})
-				div.col-12.col-md-4
-					div.page-product__delivery-item
-						+item-delivery({value: '06', desc: 'Вся продукция герметично упакована, транспортная тара опломбирована.'})
+		include ../delivery/delivery.pug
+
 	div.page-product__bottom
 		div.container
 			div.row
