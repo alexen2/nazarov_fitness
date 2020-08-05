@@ -1,0 +1,139 @@
+.quantity {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	/* 2 Block model */
+	margin: 0;
+}
+
+input[type="number"] {
+	/* 3 Typography */
+	-moz-appearance: textfield;
+}
+.quantity input {
+	/* 2 Block model */
+	width: 38px;
+	height: 41px;
+	display: block;
+	padding: 0;
+	margin: 0;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	color: $color-black200;
+	text-align: center;
+
+	/* 4 Visual */
+	border: 1px solid #cdcdcd;
+	border-right: none;
+	border-left: none;
+}
+
+.quantity input:focus {
+	/* 4 Visual */
+	outline: 0;
+}
+.quantity-button {
+	/* 2 Block model */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 27px;
+	height: 41px;
+	box-sizing: border-box;
+
+	/* 3 Typography */
+	text-align: center;
+	color: #cdcdcd;
+	font-size: 13px;
+	line-height: 1.7;
+
+	/* 4 Visual */
+	border: 1px solid #cdcdcd;
+	background-color: #ffffff;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+
+	/* 5 Animation*/
+	transition: all 0.4s;
+}
+.quantity-button:hover {
+	/* 3 Typography */
+	color: $color-black200;
+
+	/* 4 Visual */
+	background-color: #d0cdca;
+}
+.quantity-button.quantity-up {
+	/* 3 Typography */
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+
+	/* 4 Visual */
+	border-radius: 0 3px 3px 0;
+	border-left: none;
+}
+.quantity-up span {
+	/* 2 Block model */
+	display: block;
+	margin-top: -4px;
+}
+.quantity-button.quantity-down {
+	/* 3 Typography */
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: normal;
+
+	/* 4 Visual */
+	border-radius: 3px 0 0 3px;
+	border-right: none;
+}
+.quantity-down span {
+	/* 2 Block model */
+	display: block;
+	margin-top: -5px;
+}
+
+.quantity--sm input {
+	/* 2 Block model */
+	width: 22px;
+	height: 19px;
+
+	/* 3 Typography */
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: normal;
+}
+.quantity--sm .quantity-button {
+	/* 2 Block model */
+	width: 15px;
+	height: 19px;
+
+	/* 3 Typography */
+	font-size: 12px;
+}
+/* 1 Positioning */
+
+/* 2 Block model */
+
+/* 3 Typography */
+
+/* 4 Visual */
+
+/* 5 Animation*/
+
+/* 6 Misc */

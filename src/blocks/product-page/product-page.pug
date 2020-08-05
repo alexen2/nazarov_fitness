@@ -60,14 +60,27 @@ section.product-page
 										p.text-14.text-14--black.product-page__dashe
 											span калории
 										p.text-14.text-14--black.product-page__value 266,2
-
 					div.product-page__action
-						span.product-page__price 250 p.
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
 						div.product-page__increase
-						+btn({text: 'Добавить в корзину'})(class="btn--green")
+							+btn({text: 'Добавить в корзину'})(class="btn--green")
 
 	div.product-page__tabs
 		div.container
 			div.row
 				div.col-12 
-					p.text-14 tabs
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link-active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+					div.product-page__tab(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Согласно легенде, история этого блюда берет свое начало в Китае. При этом лагман считают своим национальным блюдом многие народы Средней Азии. Каждый из них вложил в это блюдо частичку своей души, традиций и старания. Но одно осталось неизменным: настоящий лагман готовят в казане и используют домашнюю лапшу!
+							p.text-14.text-14--color-1 В лагмане Назаров Фитнес – домашняя лапша и он готовится исключительно в казане!
+								br
+								|А белковые митболы из говядины обеспечат Ваш организм необходимым протеином для новых достижений в спорте!
+					div.product-page__tab(id='tab-2')
+					div.product-page__tab(id='tab-3')

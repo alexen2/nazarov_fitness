@@ -1,0 +1,60 @@
+.tabs {
+	/* 2 Block model */
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+
+	/* 4 Visual */
+	list-style: none;
+
+	/* 4 Visual */
+	border-bottom: 1px solid #f5f5f5;
+	@media (min-width: 768px) {
+		/* 2 Block model */
+		flex-direction: row;
+	}
+}
+.tabs__link {
+	/* 1 Positioning */
+	position: relative;
+
+	/* 2 Block model */
+	display: inline-flex;
+	padding: 11px 22px;
+
+	/* 3 Typography */
+	font-family: $font-main;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 22px;
+	color: $color-black200;
+	text-decoration: none;
+
+	/* 4 Visual */
+	outline: none;
+
+	/* 5 Animation */
+	transition: all 0.4s ease;
+}
+.tabs__link-active {
+	/* 3 Typography */
+	font-weight: 600;
+
+	/* 4 Visual */
+	background-color: #f5f5f5;
+	border-radius: 4px 4px 0px 0px;
+}
+.tabs__link:hover {
+	/* 3 Typography */
+	font-weight: 600;
+}
+.tabs__link:focus {
+	/* 3 Typography */
+	font-weight: 600;
+}
+.tabs__link:active {
+	/* 3 Typography */
+	font-weight: 600;
+}
