@@ -1,22 +1,23 @@
 .btn--outline {
 	/* 3 Typography */
-	color: #000000;
+	color: #fff;	
 
 	/* 4 Visual */
-	background-color: #FFFFFF;
+	background: none;
+	border: 1px solid #ffffff;
 }
-.btn--outline:hover {
+.btn--red-outline {
 	/* 3 Typography */
-	color: #FFFFFF;
+	color: #F96666;	
 
 	/* 4 Visual */
-	background-color: #000000;
+	border: 1px solid #F96666;
 }
-.btn--outline .icon {
+.btn--red-outline:hover {
+	/* 3 Typography */
+	color: #fff;	
+
 	/* 4 Visual */
-	fill: #000000;
-}
-.btn--outline:hover .icon {
-	/* 4 Visual */
-	fill: #FFFFFF;
+	background-color: #F96666;
+	border: 1px solid #F96666;
 }

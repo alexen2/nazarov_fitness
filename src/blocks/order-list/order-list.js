@@ -1,3 +1,5 @@
+import headerCart from '../header/header--cart';
+
 const orderList = () => {
   let cartData = JSON.parse(localStorage.getItem('cartData')) || {};
   
@@ -68,6 +70,8 @@ const orderList = () => {
     orderDelivery.html(orderSumDelivery + ' ₽');
 
     orderTotalDelivery.html(orderSumTotal + orderSumDelivery + ' ₽');
+
+    headerCart(orderCountProduct);
   }
 }
 

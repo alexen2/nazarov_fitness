@@ -18,8 +18,9 @@
 .btn--black:focus,
 .btn--black:active {
 	/* 3 Typography */
-	color: $color-black200;
+	color: #ffffff;
 
 	/* 4 Visual */
-	background-color: $color-white;
+	background-color: #0F1428;
+	border: 1px solid #0F1428;
 }

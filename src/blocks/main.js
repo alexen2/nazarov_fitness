@@ -5,6 +5,7 @@ import menu from "./menu/menu";
 import modal from "./modal/modal";
 import shop from "./shop/shop";
 import order from "./order/order";
+import tabs from './tabs/tabs';
 
 window.addEventListener("DOMContentLoaded", () => {
 	$("#clearData").on("click", function () {
@@ -13,9 +14,10 @@ window.addEventListener("DOMContentLoaded", () => {
 
 	form();
 	header();
-	input();
+	// input();
 	menu();
 	modal();
 	shop();
 	order();
+	tabs();
 });

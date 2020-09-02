@@ -26,22 +26,27 @@
 	/* 2 Block model */
 	padding: 20px 0;
 	margin: 0;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 
 	/* 4 Visual */
 	border-top: 1px solid rgba(196, 196, 196, 0.2);
 	border-bottom: 1px solid rgba(196, 196, 196, 0.2);
 	list-style: none;
-	@media (min-width: 992px) {
-		/* 2 Block model */
-		margin-bottom: 100px;
-	}
 }
 .shop-sidebar__footer-item {
 	/* 2 Block model */
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+.shop-sidebar__footer-img {
+	/* 2 Block model */
+	padding-top: 40px;
+
+	@media(min-width: 992px) {
+		/* 2 Block model */
+		padding-top: 100px;
+	}
 }
 .shop-sidebar__footer-img img {
 	/* 2 Block model */

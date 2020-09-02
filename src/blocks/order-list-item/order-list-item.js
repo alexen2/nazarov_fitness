@@ -2,6 +2,7 @@ import refreshData from '../refresh-data/refresh-data';
 
 const orderListItem = () => {
   $('.cartDel').on('click', function() {
+    console.log('del');
     let orderItemId = $(this).attr('data-id');
     let cartData = JSON.parse(localStorage.getItem('cartData')) || {};
 

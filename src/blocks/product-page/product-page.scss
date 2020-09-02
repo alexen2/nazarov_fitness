@@ -240,3 +240,11 @@
 		margin-bottom: 0;
 	}
 }
+.product-page__tab {
+	/* 2 Block model */
+	display: none;
+}
+.product-page__tab--active {
+	/* 2 Block model */
+	display: block;
+}

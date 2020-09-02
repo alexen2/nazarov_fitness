@@ -28,21 +28,17 @@
 
 .footer--in {
 	/* 2 Block model */
-	padding: 0;
+	padding: 20px 0;
 
 	/* 3 Typography */
 	text-align: left;
 	color: #ffffff;
-}
-.footer--in .container {
-	/* 2 Block model */
-	padding: 14px 15px;
-	@media (min-width: 768px) {
+
+	@media(min-width: 992px) {
 		/* 2 Block model */
-		padding: 14px 82px;
+		padding: 40px 0;
 	}
 }
-
 /* 1 Positioning */
 
 /* 2 Block model */
@@ -54,3 +50,9 @@
 /* 5 Animation */
 
 /* 6 Misc */
+
+.footer__text .text {
+	/* 3 Typography */
+	font-size: 14px;
+	line-height: 22px;
+}

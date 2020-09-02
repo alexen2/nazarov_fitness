@@ -303,11 +303,18 @@
 	border-radius: 50%;
 	background-color: #f0f6ff;
 }
+.header__basket-body:hover {
+	/* 4 Visual */	
+	opacity: 0.7;
+
+	/* 5 Animation */
+	transition: all 0.4s;
+}
 .header__basket-number {
 	/* 1 Positioning */
 	position: absolute;
-	top: 7px;
-	right: 5px;
+	top: 0px;
+	right: -5px;
 
 	/* 2 Block model */
 	display: flex;

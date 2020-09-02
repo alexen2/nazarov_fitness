@@ -23,7 +23,7 @@
 	cursor: pointer;
 	user-select: none;
 	background-color: $color-blue;
-	border: none;
+	border: 1px solid $color-blue;
 	outline: none;
 
 	/* 5 Animation */
@@ -38,6 +38,7 @@
 
 	/* 4 Visual */
 	background-color: $color-white;
+	border: 1px solid #ffffff;
 }
 .btn:focus {
 	/* 3 Typography */

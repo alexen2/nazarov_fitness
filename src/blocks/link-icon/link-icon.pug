@@ -1,4 +1,4 @@
 mixin link-icon(data)
-	a.link-icon(href="#" target="_blank")
+	a.link-icon(href=data.url)
 		+icon('icon--arrows-left', 'icon--17')
 		span.link-icon__text!=data.text

@@ -65,22 +65,32 @@ section.product-page
 							span.product-page__price 250 p.
 							+quantity({})
 						div.product-page__increase
-							+btn({text: 'Добавить в корзину'})(class="btn--green")
+							+btn({text: 'Добавить в корзину', data_id: 'suplapsha_s_mitbolami'})(class="btn--green addToCart")
 
 	div.product-page__tabs
 		div.container
 			div.row
 				div.col-12 
 					+tabs([
-						{url: '#tab-1', link: 'Описание', class: 'tabs__link-active'},
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
 						{url: '#tab-2', link: 'Приготовление'},
 						{url: '#tab-3', link: 'Характеристики'}
 					])
-					div.product-page__tab(id='tab-1')
+					
+					div.product-page__tab.product-page__tab--active(id='tab-1')
 						div.product-page__tab-body
 							p.text-14.text-14--color-1 Согласно легенде, история этого блюда берет свое начало в Китае. При этом лагман считают своим национальным блюдом многие народы Средней Азии. Каждый из них вложил в это блюдо частичку своей души, традиций и старания. Но одно осталось неизменным: настоящий лагман готовят в казане и используют домашнюю лапшу!
 							p.text-14.text-14--color-1 В лагмане Назаров Фитнес – домашняя лапша и он готовится исключительно в казане!
 								br
 								|А белковые митболы из говядины обеспечат Ваш организм необходимым протеином для новых достижений в спорте!
-					div.product-page__tab(id='tab-2')
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
 					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 400 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

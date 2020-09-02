@@ -3,7 +3,7 @@ section.page-product
 		div.row
 			div.col-12
 				div.page-product__breadcrumbs
-					+breadcrumbs({items:['Каталог','Суп лапша куриная']})
+					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Суп лапша куриная'}]})
 	div.page-product__item
 		include ../product-page/product-page.pug
 	div.page-product__catalog
@@ -16,72 +16,72 @@ section.page-product
 					div.page-product__catalog-item
 						+shop-item({
 							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							title: 'Борщ',
+							desc: 'Борщ с митболами из говядины белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'solyanka_s_mitbolami',
+							title: 'Солянка',
+							desc: 'Солянка с митболами из говядины белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'suplapsha_s_mitbolami',
+							title: 'Суп лапша куриная',
+							desc: 'Суп-лапша с митболами из курицы белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'lagman_s_mitbolami',
+							title: 'Лагман',
+							desc: 'Лагман с митболами из говядины белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'tom_yam_s_fishbolami',
+							title: 'Том Ям',
+							desc: 'Том Ям с фишболами из лосося белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'tom_kkha_s_mitbolami',
+							title: 'Том Кха',
+							desc: 'Том Кха с митболами из курицы белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'ma_po_tofu_s_farshem',
+							title: 'Ма По Тофу',
+							desc: 'Ма По Тофу с фаршем из говядины белковым',
+							price: '0',
 							calories: '266 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
-							id: 'borshch_s_mitbolami',
-							title: 'Фо бо',
-							desc: 'Классика вьетнамской кухни, суп-лапша из говядины',
-							price: '183',
+							id: 'fo_s_mitbolami',
+							title: 'Фо с митболами',
+							desc: 'Фо с митболами из говядины белковыми',
+							price: '0',
 							calories: '266 ккал'
 						})
 	div.page-product__form
@@ -94,7 +94,7 @@ section.page-product
 		div.container
 			div.row
 				div.col-12
-					+link-icon({text: 'Вернуться в каталог'})
+					+link-icon({url: '/shop', text: 'Вернуться в каталог'})
 
 
 

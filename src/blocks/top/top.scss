@@ -65,6 +65,20 @@
 		margin-bottom: 0;
 	}
 }
+.top .btn {
+	/* 2 Block model */
+	margin-right: 20px;
+	margin-bottom: 20px;
+
+	@media(min-width: 768px) {
+		/* 2 Block model */
+		margin-bottom: 0;
+	}
+}
+.top .btn:last-child {
+	/* 2 Block model */
+	margin-bottom: 0;
+}
 
 /* 1 Positioning */
 

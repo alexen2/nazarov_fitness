@@ -3,7 +3,7 @@ section.checkout
 		div.row
 			div.col-12
 				div.checkout__breadcrumbs
-					+breadcrumbs({items:['Каталог','Оформление заказа']})
+					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Оформление заказа'}]})
 		div.row
 			div.col-12
 				h1.h1-36.checkout__title Оформление заказа
@@ -26,4 +26,4 @@ section.checkout
 		div.container
 			div.row
 				div.col-12
-					+link-icon({text: 'Вернуться в каталог'})
+					+link-icon({url: '/shop', text: 'Вернуться в каталог'})

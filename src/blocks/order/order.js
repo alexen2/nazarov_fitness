@@ -9,7 +9,9 @@ const order = () => {
   let cityName = $('.city-select option:selected').html();
   $('.order-form [name="order_city"]').val(cityName);
 
-  $('#orderDone').on('click', function() {
+  $('#orderDone').on('click', function(e) {
+    e.preventDefault();
+    
     if(orderForm()) {
       $('.order').html('');
       console.log('orderDone');

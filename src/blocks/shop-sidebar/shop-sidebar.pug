@@ -3,17 +3,7 @@ div.shop-sidebar
 		h2.h2-22.shop-sidebar__title Ваш заказ
 
 	div.shop-sidebar__body
-		ul.shop-sidebar__list
-			li.shop-sidebar__item
-				+shop-sidebar-product({img: 'suplapsha_s_mitbolami.png', alt: 'Суп лапша куриная', title: 'Суп лапша куриная', price: '250 р.'})
-			li.shop-sidebar__item
-				+shop-sidebar-product({img: 'lagman_s_mitbolami.png', alt: 'Лагман', title: 'Лагман', price: '250 р.'})
-			li.shop-sidebar__item
-				+shop-sidebar-product({img: 'solyanka_s_mitbolami.png', alt: 'Солянка', title: 'Солянка', price: '250 р.'})
-			li.shop-sidebar__item
-				+shop-sidebar-product({img: 'tom_yam_s_fishbolami.png', alt: 'Том Ям ', title: 'Том Ям ', price: '250 р.'})
-			li.shop-sidebar__item
-				+shop-sidebar-product({img: 'miso_s_fishbolami.png', alt: 'Мисо', title: 'Мисо', price: '250 р.'})
+		ul.shop-sidebar__list(id="shopSidebarList")
 
 	div.shop-sidebar__footer
 		ul.shop-sidebar__footer-list
@@ -23,34 +13,8 @@ div.shop-sidebar
 			li.shop-sidebar__footer-item
 				span.text-16-2.text-16-2--black Итого:
 				span.text-16-2.text-16-2--black.shop-sidebar__footer-total 0 ₽
+
+		+btn({text: 'Оформить заказ', type: 'link', url: '/order'})(class="btn--outline btn--red-outline")
+
 		div.shop-sidebar__footer-img
 			img(src="images/shop-sidebar__img-01.jpg" alt="Бесплатная доставка")
-
-
-
-
-
-
-	//- div.shop-sidebar__body
-	//- 	ul.shop-sidebar__list(id="shopSidebarList")
-	//- div.shop-sidebar__footer
-	//- 	ul.shop-sidebar__list
-	//- 		li.shop-sidebar__item
-	//- 			div.shop-sidebar__footer-item
-	//- 				span Итого:
-	//- 				span.shop-sidebar__footer-total 0 ₽
-
-	//- 		li.shop-sidebar__item
-	//- 			div.shop-sidebar__footer-item
-	//- 				span Доставка:
-	//- 				span.shop-sidebar__footer-delivery 0 ₽
-
-	//- 	+btn({
-	//- 		text: 'Оформить заказ',
-	//- 		type: 'link',
-	//- 		url: '/order.html'
-	//- 	})(
-	//- 		id="shopSidebarCheckout"
-	//- 	)
-
-	//- 	p.shop-sidebar__footer-bottom Спасибо за Ваш заказ
