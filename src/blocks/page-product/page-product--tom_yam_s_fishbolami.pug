@@ -3,15 +3,24 @@ section.page-product
 		div.row
 			div.col-12
 				div.page-product__breadcrumbs
-					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Борщ с митболами'}]})
+					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Том Ям с фишболами'}]})
 	div.page-product__item
-		include ../product-page/product-page.pug
+		include ../product-page/product-page--tom_yam_s_fishbolami.pug
 	div.page-product__catalog
 		div.container
 			div.row
 				div.col-12
 					h2.h2-32.page-product__title-2 Каталог
 			div.row
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Борщ',
+							desc: 'Борщ с митболами из говядины белковыми',
+							price: '0',
+							calories: '252,2 ккал'
+						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
@@ -38,15 +47,6 @@ section.page-product
 							desc: 'Лагман с митболами из говядины белковыми',
 							price: '0',
 							calories: '266,2 ккал'
-						})
-				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'tom_yam_s_fishbolami',
-							title: 'Том Ям',
-							desc: 'Том Ям с фишболами из лосося белковыми',
-							price: '0',
-							calories: '302,2 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item

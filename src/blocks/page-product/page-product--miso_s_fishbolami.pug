@@ -3,15 +3,24 @@ section.page-product
 		div.row
 			div.col-12
 				div.page-product__breadcrumbs
-					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Борщ с митболами'}]})
+					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Мисо с&nbsp;фишболами'}]})
 	div.page-product__item
-		include ../product-page/product-page.pug
+		include ../product-page/product-page--miso_s_fishbolami.pug
 	div.page-product__catalog
 		div.container
 			div.row
 				div.col-12
 					h2.h2-32.page-product__title-2 Каталог
 			div.row
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Борщ',
+							desc: 'Борщ с митболами из говядины белковыми',
+							price: '0',
+							calories: '252,2 ккал'
+						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
@@ -74,15 +83,6 @@ section.page-product
 							desc: 'Фо с митболами из говядины белковыми',
 							price: '0',
 							calories: '348,7 ккал'
-						})
-				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'miso_s_fishbolami',
-							title: 'Мисо',
-							desc: 'Мисо с фишболами из лосося белковыми',
-							price: '0',
-							calories: '213,7 ккал'
 						})
 	div.page-product__form
 		include ../subscription-form/subscription-form.pug

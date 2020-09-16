@@ -1,0 +1,96 @@
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Суп Фо&nbsp;с&nbsp;митболами из&nbsp;говядины белковыми.
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 400 г
+				div.product-page__img
+					img(src="images/product-page__img-01.jpg" alt="Суп Фо с митболами из говядины белковыми" title="Суп Фо с митболами из говядины белковыми.")
+
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Суп Фо&nbsp;с&nbsp;митболами из&nbsp;говядины белковыми.
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 400 г
+
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text вода питьевая, митболы белковые из&nbsp;говядины( говядина, лук репчатый, белок яичный, белок из&nbsp;говяжьего бульона органический, концентрированный сывороточный белок, соль, чеснок, перец черный молотый), лапша рисовая ( вода, рисовая мука), бульон говяжий концентрированный натуральный (бульон говяжий концентрированный, соль поваренная пищевая), лук репчатый, лук зеленый свежий, лайм свежий, сахар тростниковый, кинза свежая, рыбный соус (экстракт анчоуса, соль, сахар), соль поваренная пищевая, жир говяжий, имбирь свежий, специи (гвоздика, кориандр, бадьян, корица), перец чили свежий.
+							//- br
+							//- a.link.link--black(href="#" target="_blank")
+
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 6,53 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 2,11 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 11,54 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 87,2
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 400 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 26,12 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 8,44 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 46,17 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 348,7
+					div.product-page__action
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
+						div.product-page__increase
+							+btn({text: 'Добавить в корзину', data_id: 'fo_s_mitbolami'})(class="btn--green addToCart")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+
+					div.product-page__tab.product-page__tab--active(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Согласно утверждениям вьетнамских историков, впервые суп фо&nbsp;был приготовлен в&nbsp;городке Намдинь в&nbsp;100 километрах от&nbsp;Ханоя приблизительно 150 лет назад. Продавали его уличные разносчики. На&nbsp;своеобразном коромысле они носили два короба. В&nbsp;одном размещалась жаровня с&nbsp;бульоном, который должен оставаться горячим, в&nbsp;другом&nbsp;&mdash; зелень и&nbsp;мясо для супа. В&nbsp;начале&nbsp;XX века один из&nbsp;таких разносчиков перебрался в&nbsp;Ханой, и&nbsp;его еда быстро стала популярной.
+							p.text-14.text-14--color-1 А&nbsp;насколько суп&nbsp;Фо стал популярным в&nbsp;России и&nbsp;говорить не&nbsp;нужно!
+							p.text-14.text-14--color-1 Суп Фо&nbsp;от&nbsp;Назаров Фитнес с&nbsp;белковыми митболами- настоящее удовольствие для людей, ведущих здоровый образ жизни и&nbsp;спортсменов!
+							p.text-14.text-14--color-1 В&nbsp;нашем интернет-магазине Вы&nbsp;можете заказать 12&nbsp;любых блюд с&nbsp;бесплатной доставкой! Положите их&nbsp;&laquo;прозапас&raquo; в&nbsp;морозильную камеру и&nbsp;в&nbsp;любой момент у&nbsp;Вас на&nbsp;столе первоклассный обед или ужин!
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
+					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 400 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

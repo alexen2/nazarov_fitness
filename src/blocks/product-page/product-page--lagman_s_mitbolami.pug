@@ -1,0 +1,95 @@
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Лагман с&nbsp;митболами из&nbsp;говядины белковыми.
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 400 г
+				div.product-page__img
+					img(src="images/lagman_s_mitbolami.png" alt="Лагман с митболами из говядины белковыми" title="Лагман с митболами из говядины белковыми")
+
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Лагман с&nbsp;митболами из&nbsp;говядины белковыми.
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 400 г
+
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text вода, митболы белковые из&nbsp;говядины( говядина, лук репчатый, белок яичный, белок из&nbsp;говяжьего бульона органический, концентрированный сывороточный белок, соль, чеснок, перец черный молотый), лапша яичная (мука в/с, яйцо куриное, масло подсолнечное рафинированное, соль поваренная пищевая), перец болгарский свежий, морковь свежая, лук репчатый свежий, картофель свежий, сельдерей свежий, паста томатная с&nbsp;массовой долей сухих веществ 28-30%, масло подсолнечное рафинированное, бульон говяжий концентрированный натуральный (бульон говяжий концентрированный, соль поваренная пищевая), лук зеленый свежий, чеснок сухой, специи ( паприка красная молотая, перец черный молотый, чеснок гранулы, тмин, орегано, кориандр, зира (кумин), горчица, базилик), соль поваренная пищевая, перец красный молотый, паста Табаджан ( перец красный острый, растительное масло, кунжутное масло, соль, специи).
+							//- br
+							//- a.link.link--black(href="#" target="_blank")
+
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 6,44 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 3,90 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 4,91 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 66,6
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 400 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 25,77 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 15,61 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 19,63 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 266,2
+					div.product-page__action
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
+						div.product-page__increase
+							+btn({text: 'Добавить в корзину', data_id: 'lagman_s_mitbolami'})(class="btn--green addToCart")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+
+					div.product-page__tab.product-page__tab--active(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Согласно легенде, история этого блюда берет свое начало в&nbsp;Китае. При этом лагман считают своим национальным блюдом многие народы Средней Азии. Каждый из&nbsp;них вложил в&nbsp;это блюдо частичку своей души, традиций и&nbsp;старания. Но&nbsp;одно осталось неизменным: настоящий лагман готовят в&nbsp;казане и&nbsp;используют домашнюю лапшу!
+							p.text-14.text-14--color-1 В&nbsp;лагмане Назаров Фитнес&nbsp;&mdash; домашняя лапша и&nbsp;он&nbsp;готовится исключительно в&nbsp;казане!
+							p.text-14.text-14--color-1 А&nbsp;белковые митболы из&nbsp;говядины обеспечат Ваш организм необходимым протеином для новых достижений в&nbsp;спорте!
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
+					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 400 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

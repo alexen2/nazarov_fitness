@@ -1,0 +1,97 @@
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Солянка с&nbsp;митболами из&nbsp;говядины белковыми.
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 350 г
+				div.product-page__img
+					img(src="images/solyanka_s_mitbolami.png" alt="Солянка с митболами из говядины белковыми" title="Солянка с митболами из говядины белковыми")
+
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Солянка с&nbsp;митболами из&nbsp;говядины белковыми.
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 350 г
+
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text вода, митболы белковые из&nbsp;говядины ( говядина, лук репчатый, белок яичный, белок из&nbsp;говяжьего бульона органический, концентрированный сывороточный белок, соль, чеснок, перец черный молотый), морковь свежая, лук репчатый свежий, огурцы соленые (огурцы, винный уксус, соль, специи (укроп, лук, зерна горчицы, перец)), томатная паста с&nbsp;массовой долей сухих веществ 28-30%, масло подсолнечное рафинированное, бульон говяжий концентрированный натуральный (бульон говяжий концентрированный, соль поваренная пищевая), лимон свежий, оливки консервированные (вода, оливки, соль, регулятор кислотности (лимонная кислота)), маслины консервированные (маслины, вода, соль, регулятор кислотности (лимонная кислота)) каперсы (каперсы, винный уксус, вода, соль), соль поваренная пищевая, жир говяжий, укроп свежий, сахар, перец черный молотый.
+							//- br
+							//- a.link.link--black(href="#" target="_blank")
+
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 7,28 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 3,71 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 2,93 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 73,7
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 350 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 25,47 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 12,98 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 10,24 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 258
+					div.product-page__action
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
+						div.product-page__increase
+							+btn({text: 'Добавить в корзину', data_id: 'solyanka_s_mitbolami'})(class="btn--green addToCart")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+
+					div.product-page__tab.product-page__tab--active(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Солянка&nbsp;&mdash; одно из&nbsp;самых популярных блюд русской кухни. Хорошая, богатая солянка&nbsp;&mdash; большая редкость и&nbsp;огромное удовольствие для гурмана. Только при соблюдении точной рецептуры и&nbsp;технологии приготовления получается шедевр.
+							p.text-14.text-14--color-1 Попробуйте нашу солянку! Мы&nbsp;очень старались. А&nbsp;белковые митболы из&nbsp;говядины будут полезны для здоровья и&nbsp;обеспечат ваш организм высококачественными протеинами! 
+								br
+								|Восторг и&nbsp;удовольствие для людей, ведущих здоровый образ жизни!
+
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
+					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 350 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

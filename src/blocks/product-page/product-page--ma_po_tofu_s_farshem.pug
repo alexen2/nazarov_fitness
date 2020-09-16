@@ -1,0 +1,94 @@
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Ма&nbsp;По&nbsp;Тофу с&nbsp;фаршем
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 350 г
+				div.product-page__img
+					img(src="images/ma_po_tofu_s_farshem.png" alt="Суп китайский Ма По Тофу" title="Суп китайский Ма По Тофу")
+
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Ма&nbsp;По&nbsp;Тофу с&nbsp;фаршем
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 350 г
+
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text вода питьевая, тофу ( соевые бобы, соль, коагулянт- хлорид кальция, вода), фарш белковый из&nbsp;говядины ( говядина, лук репчатый, белок яичный, белок из&nbsp;говяжьего бульона органический, концентрированный сывороточный белок, соль, чеснок, перец черный молотый), паста томатная, имбирь свежий, соус соевый( вода, соевые бобы, рис, соль) , мирин ( рис, глюкоза, вода, рисовый уксус), сахар тростниковый, лук зеленый свежий, чеснок свежий, масло кунжутное, соль поваренная пищевая, паста Табаджан ( перец красный острый, растительное масло, кунжутное масло, соль, специи), крахмал кукурузный, перец сычуаньский.
+							//- br
+							//- a.link.link--black(href="#" target="_blank")
+
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 7,31 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 3,25 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 6,65 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 77,5
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 350 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 25,57 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 11,36 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 23,28 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 271,1
+					div.product-page__action
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
+						div.product-page__increase
+							+btn({text: 'Добавить в корзину', data_id: 'ma_po_tofu_s_farshem'})(class="btn--green addToCart")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+
+					div.product-page__tab.product-page__tab--active(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 У&nbsp;этого блюда занимательная история. В&nbsp;Китае вообще очень любят снабжать свои кулинарные творения легендами. Согласно легенде, &laquo;Мапо тофу&raquo; появилось в&nbsp;Китае в&nbsp;конце XIX века в&nbsp;северном предместье города Чэнду (крупный город и&nbsp;столица провинции Сычуань). Его придумали владельцы маленькой бедной гостиницы&nbsp;&mdash; супруги Чэнь. Муж заведовал хозяйством, а&nbsp;супруга готовила на&nbsp;кухне. Блюдо настолько понравилось постояльцам, что супруги даже переименовали гостиницу! С&nbsp;начала&nbsp;ХХ века Ма&nbsp;По&nbsp;Тофу входит в&nbsp;лучшие сборники рецептур не&nbsp;только сычуаньской, но&nbsp;и&nbsp;китайской кухни!
+							p.text-14.text-14--color-1 Это острое блюдо для настоящих мужчин от&nbsp;Назаров Фитнес богато сывороточным, яичным и&nbsp;мясным белком!
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
+					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 350 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

@@ -1,0 +1,97 @@
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Суп-лапша с&nbsp;митболами из&nbsp;курицы белковыми.
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 350 г
+				div.product-page__img
+					img(src="images/suplapsha_s_mitbolami.png" alt="Суп лапша с митболами из курицы белковыми" title="Суп-лапша с митболами из курицы белковыми")
+
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Суп-лапша с&nbsp;митболами из&nbsp;курицы белковыми.
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 350 г
+
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text вода питьевая, митболы белковые из&nbsp;курицы( филе куриное, лук репчатый, белок яичный, белок из&nbsp;говяжьего бульона органический, концентрированный сывороточный белок, соль, чеснок, карри), лапша яичная (мука в/с, яйцо куриное, растительное масло, соль), морковь свежая, масло подсолнечное рафинированное, лук репчатый свежий, бульон куриный концентрированный натуральный (бульон куриный концентрированный, соль поваренная пищевая), жир куриный, укроп зеленый свежий, соль поваренная пищевая, приправа (морковь, чеснок, соль, паприка, петрушка, укроп, перец черный, куркума).
+							//- br
+							//- a.link.link--black(href="#" target="_blank")
+
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 7,53 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 4,95 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 6,46 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 99,6
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 350 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 26,35 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 17,33 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 22,6 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 348,5
+					div.product-page__action
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
+						div.product-page__increase
+							+btn({text: 'Добавить в корзину', data_id: 'suplapsha_s_mitbolami'})(class="btn--green addToCart")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+
+					div.product-page__tab.product-page__tab--active(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Обязательно попробуйте суп-лапшу домашнюю от&nbsp;Назаров Фитнес!
+							p.text-14.text-14--color-1 Мы&nbsp;сами раскатываем лапшу для супа. Для ее&nbsp;приготовления в&nbsp;рецептуре не&nbsp;используется вода- мука, куриное яйцо, растительное масло и&nbsp;соль! 6&nbsp;яиц на&nbsp;1&nbsp;кг муки! 
+							p.text-14.text-14--color-1 В&nbsp;сочетании с&nbsp;белковыми митболами из&nbsp;курицы, обжаренным лучком и&nbsp;морковью со&nbsp;свежим укропом получается настоящий кулинарный шедевр для спортсменов!
+								br
+								|Приятного аппетита и&nbsp;новых достижений!
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
+					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 350 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

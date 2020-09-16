@@ -6,25 +6,38 @@ html(lang="ru")
 	body
 		div.wrapper
 			include ../blocks/mixins.pug
-
-			include ../blocks/header/header.pug
-
-			include ../blocks/top/top.pug
-			
-			include ../blocks/description/description.pug
-
-			include ../blocks/info/info.pug 
-
-			include ../blocks/menu-product/menu-product.pug
-
-			include ../blocks/to-get/to-get.pug
-
-			include ../blocks/contacts/contacts.pug
-
-			include ../blocks/footer/footer.pug
-
-			include ../blocks/modal/modal.pug
-
-			include ../blocks/modal/modal-accepted.pug
-
-		include include/script.pug
+			div.intro-page
+				div.container
+					div.row.justify-content-center
+						div.col-12.col-lg-6
+							div.intro-page__top
+								+logo({img: 'logo.png'})
+							ul.intro-page__list
+								li.intro-page__item
+									a(href="home.html" target="_blank") Назаров Фитнес
+								li.intro-page__item
+									a(href="description.html" target="_blank") Описнаие
+								li.intro-page__item
+									a(href="main-store.html" target="_blank") Первые блюда
+								li.intro-page__item
+									a(href="order.html" target="_blank") Оформление заказа
+								li.intro-page__item
+									a(href="shop.html" target="_blank") Магазин
+								li.intro-page__item
+									a(href="borshch_s_mitbolami.html" target="_blank") Борщ с митболами
+								li.intro-page__item
+									a(href="solyanka_s_mitbolami.html" target="_blank") Солянка с митболами
+								li.intro-page__item
+									a(href="suplapsha_s_mitbolami.html" target="_blank") Суп-лапша куриная
+								li.intro-page__item
+									a(href="lagman_s_mitbolami.html" target="_blank") Лагман с митболами
+								li.intro-page__item
+									a(href="tom_yam_s_fishbolami.html" target="_blank") Том Ям с фишболами
+								li.intro-page__item
+									a(href="tom_kkha_s_mitbolami.html" target="_blank") Том Кха с митболами
+								li.intro-page__item
+									a(href="ma_po_tofu_s_farshem.html" target="_blank") Ма По Тофу с фаршем
+								li.intro-page__item
+									a(href="fo_s_mitbolami.html" target="_blank") Фо с митболами
+								li.intro-page__item
+									a(href="miso_s_fishbolami.html" target="_blank") Мисо с фишболами

@@ -1,0 +1,97 @@
+section.product-page
+	div.container
+		div.row
+			div.col-12.col-md-5
+				h1.h1-36.product-page__title.product-page__desctop-show Мисо-суп с&nbsp;фишболами из&nbsp;лосося белковыми.
+				p.text-16.product-page__subtitle.product-page__desctop-show вес нетто: 350 г
+				div.product-page__img
+					img(src="images/miso_s_fishbolami.png" alt="Мисо-суп с фишболами из лосося белковыми" title="Мисо-суп с фишболами из лосося белковыми")
+
+			div.col-12.col-md-7
+				div.product-page__body
+					h1.h1-36.product-page__title.product-page__mobile-show Мисо-суп с&nbsp;фишболами из&nbsp;лосося белковыми.
+					p.text-16.product-page__subtitle.product-page__mobile-show вес нетто: 350 г
+
+					div.product-page__composition
+						span.text-16.product-page__composition-title
+							strong Состав:
+						p.text-14.product-page__composition-text вода питьевая, фишболы белковые из&nbsp;лосося( филе горбуши, филе лососи, белок яичный, концентрированный сывороточный белок, соль, специи (перец черный молотый, лук репчатый, сок лайма сухой, кожура лимона, куркума)), паста мисо ( соевые бобы, рис, соль, вода), тофу ( соевые бобы, соль, коагулянт- хлорид кальция, вода), бульон рыбный концентрат &quot;Хондаши&quot;( рыбный порошок, соль пищевая, глюкоза, усилитель вкуса глутамат натрия), водоросли вакамэ, грибы шиитаке, лук зеленый свежий, кунжут жареный.
+							//- br
+							//- a.link.link--black(href="#" target="_blank")
+
+						div.product-page__composition-info
+							div.product-page__composition-left
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 100 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 7,26 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 2,47 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 3,36 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 61,06
+							div.product-page__composition-right
+								div.product-page__composition-value
+									p.text-16.product-page__composition-info-title
+										b Пищевая ценность на 350 г:
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe 
+											span белки
+										p.text-14.text-14--black.product-page__value 25,42 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span жиры
+										p.text-14.text-14--black.product-page__value 8,66 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span углеводы
+										p.text-14.text-14--black.product-page__value 11,76 г
+									div.product-page__composition-component
+										p.text-14.text-14--black.product-page__dashe
+											span калории
+										p.text-14.text-14--black.product-page__value 213,7
+					div.product-page__action
+						div.product-page__action-buy
+							span.product-page__price 250 p.
+							+quantity({})
+						div.product-page__increase
+							+btn({text: 'Добавить в корзину', data_id: 'miso_s_fishbolami'})(class="btn--green addToCart")
+
+	div.product-page__tabs
+		div.container
+			div.row
+				div.col-12 
+					+tabs([
+						{url: '#tab-1', link: 'Описание', class: 'tabs__link--active'},
+						{url: '#tab-2', link: 'Приготовление'},
+						{url: '#tab-3', link: 'Характеристики'}
+					])
+
+					div.product-page__tab.product-page__tab--active(id='tab-1')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Первейшие упоминания о&nbsp;мисо начинаются с&nbsp;эпохи Дзёмон. Это примерно с&nbsp;13&nbsp;000 до&nbsp;300 лет до&nbsp;н.э. Заговорили о&nbsp;мисо, когда обнаружили, что злаки или бобы, которые ферментировали особым образом и&nbsp;растирали в&nbsp;пасту, придают пище особый вкус, обеззараживают пищу, тем самым делая её&nbsp;полезной.
+							p.text-14.text-14--color-1 Мисо считается весьма значимым продуктом в&nbsp;Японии, так&nbsp;же, как рис и&nbsp;рыба. Без мисо там не&nbsp;обходится ни&nbsp;одно блюдо. А&nbsp;после того, как было выяснено, что мисо обладает и&nbsp;антирадиационными свойствами, интерес к&nbsp;нему взлетел до&nbsp;небес!
+							p.text-14.text-14--color-1 Обязательно закажите Мисо от&nbsp;Назаров Фитнес. В&nbsp;любой&nbsp;Вы момент сможете насладиться этим блюдом- достаточно только протянуть руку и&nbsp;открыть морозильник. Разогрейте мисо в&nbsp;СВЧ-печи, на&nbsp;плите или в&nbsp;духовом шкафу- великолепный результат гарантирован!
+							p.text-14.text-14--color-1 Фишболы из&nbsp;лосося только усилят впечатление и&nbsp;добавят в&nbsp;Ваш рацион необходимый белок!
+							p.text-14.text-14--color-1 Мисо-одно из&nbsp;самых низкокалорийных блюд в&nbsp;нашем меню. Будьте здоровы и&nbsp;приятного аппетита!
+					div.product-page__tab(id='tab-2') 
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 1. В СВЧ-печи: приоткрыть крышку контейнера, разогреть на максимальной мощности в течение 8-9 минут.
+							p.text-14.text-14--color-1 2. В духовом шкафу или на плите: переложить замороженный продукт в подходящую посуду и разогревать до закипания.
+
+					div.product-page__tab(id='tab-3')
+						div.product-page__tab-body
+							p.text-14.text-14--color-1 Вес нетто: 350 г <br>Производитель: ООО ГРАНД, Челябинская область, г. Златоуст, ул. Косотурская, д. 17.<br>Тел.: +7(3513)62-00-67
+							br
+							p.text-14.text-14--color-1 ТУ 10.89.11-017-19421968-2020
+

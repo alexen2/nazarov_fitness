@@ -3,9 +3,9 @@ section.page-product
 		div.row
 			div.col-12
 				div.page-product__breadcrumbs
-					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Борщ с митболами'}]})
+					+breadcrumbs({items:[{url: '/shop', text: 'Каталог'}, {text: 'Суп-лапша куриная'}]})
 	div.page-product__item
-		include ../product-page/product-page.pug
+		include ../product-page/product-page--suplapsha_s_mitbolami.pug
 	div.page-product__catalog
 		div.container
 			div.row
@@ -15,20 +15,20 @@ section.page-product
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item
 						+shop-item({
+							id: 'borshch_s_mitbolami',
+							title: 'Борщ',
+							desc: 'Борщ с митболами из говядины белковыми',
+							price: '0',
+							calories: '252,2 ккал'
+						})
+				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
+					div.page-product__catalog-item
+						+shop-item({
 							id: 'solyanka_s_mitbolami',
 							title: 'Солянка',
 							desc: 'Солянка с митболами из говядины белковыми',
 							price: '0',
 							calories: '258 ккал'
-						})
-				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
-					div.page-product__catalog-item
-						+shop-item({
-							id: 'suplapsha_s_mitbolami',
-							title: 'Суп лапша куриная',
-							desc: 'Суп-лапша с митболами из курицы белковыми',
-							price: '0',
-							calories: '348,5 ккал'
 						})
 				div.col-12.col-md-6.col-lg-4.col-xl-3.page-product__flex
 					div.page-product__catalog-item

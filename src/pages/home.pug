@@ -1,0 +1,30 @@
+doctype html
+html(lang="ru")
+	include include/head.pug
+	+head('Назаров Фитнес')
+
+	body
+		div.wrapper
+			include ../blocks/mixins.pug
+
+			include ../blocks/header/header.pug
+
+			include ../blocks/top/top.pug
+
+			include ../blocks/description/description.pug
+
+			include ../blocks/info/info.pug 
+
+			include ../blocks/menu-product/menu-product.pug
+
+			include ../blocks/to-get/to-get.pug
+
+			include ../blocks/contacts/contacts.pug
+
+			include ../blocks/footer/footer.pug
+
+			include ../blocks/modal/modal.pug
+
+			include ../blocks/modal/modal-accepted.pug
+
+		include include/script.pug
