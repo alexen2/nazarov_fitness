@@ -4,6 +4,7 @@ const cart = (producId) => {
   let cartData = JSON.parse(localStorage.getItem('cartData')) || {};
   let catalogData = JSON.parse(localStorage.getItem('catalogData'));
   let catTitles = JSON.parse(localStorage.getItem('catTitles'));
+  let countProduct = 0;
     
   if(producId) {
     if(!cartData[producId]) {
@@ -91,12 +92,14 @@ const cart = (producId) => {
       totalSum += cartData[key].count * cartData[key].price;
     }
 
+    if(countProduct < 12) {
+      totalSum += 300;
+    }
+
     $('.shop-sidebar__footer-total').html(totalSum + ', 00 ₽');
   }
   
-  function renderDelivery() {
-    let countProduct = 0;
-
+  function renderDelivery() { 
     for(let key in cartData) {
       countProduct += cartData[key].count;
     }

@@ -14,6 +14,10 @@
 	/* 2 Block model */
 	display: block;
 	width: 100%;
+
+	/* 4 Visual */
+	border-radius: 50%;
+	box-shadow: 7px 7px 15px 0px rgba(50, 50, 50, 0.75);
 }
 .product-page__body {
 	@media (min-width: 992px) {
