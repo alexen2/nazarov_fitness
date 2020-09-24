@@ -75,6 +75,35 @@
 	color: #4F4F4F;
 }
 
+.modal--add-to-cart {
+	/* 2 Block model */
+	max-width: 420px;
+}
+.modal--add-to-cart__actions {
+	/* 2 Block model */
+	display: flex;
+	justify-content: space-between;
+}
+.modal--add-to-cart__actions .btn {
+	/* 2 Block model */
+	padding: 5px 10px;
+
+	/* 3 Typography */
+	color: #00c4ff;
+	font-weight: normal;
+
+	/* 4 Visual */
+	background: none;
+}
+.modal--add-to-cart__actions .btn:hover {
+	/* 3 Typography */
+	color: #ffffff;
+
+	/* 4 Visual */
+	background: #00c4ff;
+	border: 1px solid #00c4ff;
+}
+
 /* 1 Positioning */
 
 /* 2 Block model */

@@ -13,8 +13,10 @@
 
 	/* 4 Visual */
 	border-radius: 3px;
-	background-color: $color-green;
-	border: 1px solid $color-green;
+	// background-color: $color-green;
+	// border: 1px solid $color-green;
+	background-color: #00c4ff;
+	border: 1px solid #00c4ff;
 
 	/* 5 Animation */
 	transition: all 0.4s;
@@ -29,6 +31,9 @@
 	color: #ffffff;
 	
 	/* 4 Visual */
-	border: 1px solid #5d9156;
-	background-color: #5d9156;
+	opacity: 0.8;
+	// border: 1px solid #5d9156;
+	border: 1px solid #39ADEE;
+	// background-color: #5d9156;
+	background-color: #39ADEE;
 }

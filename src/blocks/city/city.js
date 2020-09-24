@@ -25,6 +25,7 @@ const city = () => {
       localStorage.setItem('catalogData', catalogData);
       // console.log("Ваш новый город: " + localStorage.getItem('cityName'));
       refreshData();
+      $.modal.close();
     }    
   }); 
 }

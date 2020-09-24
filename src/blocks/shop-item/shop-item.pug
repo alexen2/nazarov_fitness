@@ -14,7 +14,7 @@ mixin shop-item(data)
 			div.shop-item__price
 				span!=data.price
 				|.00 ₽
-			+btn({text: 'В корзину', data_id: data.id})(class="btn--green addToCart")
+			+btn({text: 'В корзину', type: 'link', url: '#modalAddToCart', data_id: data.id})(class="btn--green addToCart modal-link")
 
 		//- a.shop-item__more(href="/"+data.id+".html") Подробнее о товаре 
 

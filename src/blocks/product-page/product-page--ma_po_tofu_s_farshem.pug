@@ -65,7 +65,12 @@ section.product-page
 							span.product-page__price 250 p.
 							+quantity({})
 						div.product-page__increase
-							+btn({text: 'Добавить в корзину', data_id: 'ma_po_tofu_s_farshem'})(class="btn--green addToCart")
+							+btn({
+								text: 'Добавить в корзину', 
+								type: 'link', 
+								url: '#modalAddToCart', 
+								data_id: 'ma_po_tofu_s_farshem'
+							})(class="btn--green productPageAddToCart modal-link")
 
 	div.product-page__tabs
 		div.container

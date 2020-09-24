@@ -4,7 +4,7 @@ mixin btn(data)
 		if data.url
 			- var link = data.url
 
-		a.btn(href=link, class!=attributes.class, id!=attributes.id, role="button", rel!=attributes.rel)
+		a.btn(href=link, class!=attributes.class, data-id=data.data_id, id!=attributes.id, role="button", rel!=attributes.rel)
 			if data.icon_l
 				+icon(data.icon_l)
 

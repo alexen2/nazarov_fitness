@@ -1,12 +1,14 @@
 import city from "../city/city";
 import shopItem from "../shop-item/shop-item";
 import cart from "../shop-sidebar/shop-sidebar";
+import productPage from '../product-page/product-page';
 
 const shop = () => {
 	loadShopCatTitles();
 	city();
 	shopItem();
 	cart();
+	productPage();
 };
 
 function loadShopCatTitles() {

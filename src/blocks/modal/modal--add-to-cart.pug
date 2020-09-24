@@ -1,0 +1,16 @@
+div.modal.modal-form.modal--add-to-cart(id="modalAddToCart")
+	div.modal-form__body
+		p.modal-form__title Товар добавлен в корзину!
+
+		div.modal--add-to-cart__actions
+			+btn({
+				text: 'Продолжить',
+				type: 'link',
+				url: '#close-modal',
+			})(rel="modal:close")
+
+			+btn({
+				text: 'В корзину',
+				type: 'link',
+				url: '/order'
+			})
